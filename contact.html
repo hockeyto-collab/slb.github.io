@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>문의 – Senior Life Business</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">Senior&nbsp;Life&nbsp;Business</a>
+        <ul>
+          <li><a href="index.html">홈</a></li>
+          <li><a href="about.html">소개</a></li>
+          <li><a href="services.html">서비스</a></li>
+          <li><a href="contact.html">문의</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" style="min-height:40vh; background-image:url('images/hero.png');">
+      <div class="container hero-content">
+        <h1>문의 및 강연 신청</h1>
+        <p>강연, 컨설팅, 협업 등 궁금한 사항이 있으시면 언제든지 연락 주세요.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>연락하기</h2>
+        <p>아래 양식을 작성하시면 메일 클라이언트가 열립니다. 또는 직접 이메일을 보내주셔도 됩니다: <a href="mailto:info@example.com">info@example.com</a></p>
+        <form class="contact-form" action="mailto:info@example.com" method="post" enctype="text/plain">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">제목</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">내용</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">보내기</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Senior&nbsp;Life&nbsp;Business. All rights reserved.</p>
+  </footer>
+</body>
+</html>
