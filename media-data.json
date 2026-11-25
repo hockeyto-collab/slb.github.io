@@ -316,6 +316,28 @@
       "topic": "시장·사업개발",
       "id": "media-1d0a4179",
       "thumbnail": "https://img.etnews.com/news/article/2024/06/20/news-p.v1.20240620.dfe4a1440cce4b6599bc83cde6a9c9f8_P1.jpg"
+    },
+    {
+      "publisher": "iM비즈니스리뷰",
+      "title": "초고령사회, 시니어 트렌드와 금융 비즈니스 방향",
+      "date": "2024-06-14",
+      "dateType": "기고 소개 게시일",
+      "kind": "기고·칼럼",
+      "detail": "기고 · 2024 봄·여름호(268호) · 저자 블로그",
+      "topic": "금융·시니어 비즈니스",
+      "thumbnail": "https://mblogthumb-phinf.pstatic.net/MjAyNDA2MTRfMTQ3/MDAxNzE4Mzc0NTc5Nzc0.iUvfLjjJWpfBVZxUglDAFLoU0B14aB5cM9qVKgP5MZUg.y9uzOlJvuOLsnWLLgghn-5lEDmCpeAbZ8JT4BjJW4wsg.JPEG/image.jpg?type=w800",
+      "url": "https://blog.naver.com/hockeyto/223479819691",
+      "id": "media-1ba861cc",
+      "sourceLabel": "기고 지면 · 저자 블로그",
+      "issue": "Volume 268 | 2024 Spring·Summer",
+      "publicationBrandNote": "당시 DGB금융그룹 비즈니스리뷰"
     }
-  ]
+  ],
+  "homeFeatured": [
+    "media-492b3a7f",
+    "media-04bf7475",
+    "media-f61ea2d6",
+    "media-b03f5a87"
+  ],
+  "homeSelectionNote": "주요 매체별 대표 자료를 한 건씩 골라 최신순으로 표시"
 }

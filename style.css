@@ -131,3 +131,9 @@
 .press-home-thumb{float:left;width:90px;height:66px;margin:0 16px 10px 0;overflow:hidden;border-radius:3px}.press-home-thumb img{width:100%;height:100%;object-fit:cover}.press-home-thumb[hidden]{display:none}.press-latest-card{display:flow-root}
 
 .press-thumb-video{position:relative}.press-thumb-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:5px;color:white;background:#061b32ce;padding:0 9px;font-size:14px;line-height:27px}
+
+/* Home: distinct editorial sources, selected for visibility and sorted by date. */
+.press-home .press-latest{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 36px}
+@media(max-width:760px){.press-home .press-latest{grid-template-columns:1fr;gap:6px}.press-home-bottom>span{max-width:45%;line-height:1.7}}
+
+.press-thumb-document img{object-fit:contain;background:#f5f3e9}.press-source-note{display:block;font-size:11px;color:var(--muted);margin-top:-6px}
