@@ -106,3 +106,26 @@
 @media(min-width:901px) and (max-width:960px){.site-nav{gap:15px}.brand{font-size:16px}.navlinks{gap:11px}.navlinks a{font-size:12px}.navlinks a:last-child{padding:6px 10px}}
 @media(min-width:761px) and (max-width:900px){.navlinks{display:none}.mobile-menu{display:block;position:relative}.mobile-menu summary{cursor:pointer;font-size:14px;border:1px solid #537083;padding:5px 10px;border-radius:3px;list-style:none}.mobile-menu summary::-webkit-details-marker{display:none}.mobile-menu nav{position:absolute;z-index:10;right:0;top:45px;width:220px;padding:10px;background:#132c46;border:1px solid #365570;box-shadow:0 10px 25px #0003;border-radius:4px}.mobile-menu nav a{display:block;padding:10px;color:#fff;text-decoration:none;font-size:15px}}
 @media(max-width:760px){.press-latest{grid-template-columns:1fr;gap:6px}.press-latest-card{padding:20px 0}.press-latest-card h3{font-size:19px;margin-bottom:12px}.press-home .section-head br.press-desktop-break{display:none}.press-home-bottom{margin-top:10px}.press-hero .hero-inner{min-height:0}.press-filters{align-items:flex-start;flex-direction:column;gap:14px}.press-filter-buttons{gap:7px}.press-filter-buttons button{font-size:13px;padding:8px 12px}.press-year-select{align-self:flex-end}.press-year{display:block;margin-bottom:40px}.press-year>h2{font-size:28px;padding-top:16px;margin-bottom:16px;max-width:100%}.press-row{grid-template-columns:minmax(0,1fr);gap:9px;padding:23px 0}.press-date{display:flex;align-items:center;gap:9px;font-size:12px}.press-date span{margin-top:0;font-size:11px}.press-story h3{font-size:18px;line-height:1.7}.press-story .press-meta{font-size:12px;margin-bottom:7px}.press-source{text-align:left;padding-top:0}.press-source a{min-height:44px;padding:8px 0}.press-result{margin-bottom:26px}.press-archive-note{font-size:12px}}
+
+/* Source thumbnails and official broadcast cards. */
+.press-row{grid-template-columns:100px 128px minmax(0,1fr) 90px;gap:18px}
+.press-thumb{display:block;width:128px;height:86px;border-radius:4px;overflow:hidden;background:#edf2f5;text-decoration:none;align-self:start}
+.press-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.press-thumb-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:12px;font-size:12px;color:#496278;text-align:center;border:1px solid #dce5ed}
+.press-thumb [hidden]{display:none!important}
+.press-video-section{background:#f4f8fc;border-bottom:1px solid var(--line)}
+.press-video-intro{color:var(--muted);font-size:15px;margin-bottom:30px}
+.press-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 24px}
+.press-video-card{min-width:0}
+.press-video-image{display:block;position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:4px;background:#102b42}
+.press-video-image img{width:100%;height:100%;object-fit:cover;display:block}
+.press-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:46px;height:34px;border-radius:8px;background:#061b32d9;color:#fff;font-size:17px}
+.press-video-card .press-meta{font-size:12px;margin:14px 0 8px}
+.press-video-card h3{font-size:16px;line-height:1.7;margin:0}
+.press-video-card h3 a{text-decoration:none;overflow-wrap:anywhere}
+.press-video-card h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px) and (min-width:761px){.press-year{grid-template-columns:80px minmax(0,1fr);gap:18px}.press-row{grid-template-columns:85px 100px minmax(0,1fr);gap:14px}.press-thumb{width:100px;height:72px}.press-source{grid-column:3;text-align:left}.press-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.press-row{grid-template-columns:90px minmax(0,1fr);gap:8px 14px}.press-date{grid-column:1/-1}.press-thumb{grid-column:1;grid-row:2;width:90px;height:66px}.press-story{grid-column:2;grid-row:2}.press-source{grid-column:2}.press-story h3{font-size:16px}.press-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.press-video-card h3{font-size:14px}.press-video-card .press-meta{font-size:11px}}
+@media(max-width:420px){.press-video-grid{grid-template-columns:1fr}.press-video-card h3{font-size:16px}}
+
+.press-home-thumb{float:left;width:90px;height:66px;margin:0 16px 10px 0;overflow:hidden;border-radius:3px}.press-home-thumb img{width:100%;height:100%;object-fit:cover}.press-home-thumb[hidden]{display:none}.press-latest-card{display:flow-root}

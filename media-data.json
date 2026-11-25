@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-11-25",
   "period": {
-    "from": "2023-11-25",
+    "from": "2024-01-01",
     "to": "2026-11-25"
   },
   "items": [
@@ -14,7 +14,8 @@
       "kind": "기고·칼럼",
       "detail": "기고·칼럼",
       "topic": "금융·생활설계",
-      "id": "media-492b3a7f"
+      "id": "media-492b3a7f",
+      "thumbnail": "https://cdn.insnews.co.kr/news/photo/202611/93864_59014_3123.png"
     },
     {
       "date": "2026-11-02",
@@ -25,7 +26,8 @@
       "kind": "기고·칼럼",
       "detail": "기고·칼럼",
       "topic": "금융·생활설계",
-      "id": "media-60af4b49"
+      "id": "media-60af4b49",
+      "thumbnail": "https://cdn.insnews.co.kr/news/photo/202610/93503_58594_3546.png"
     },
     {
       "date": "2026-10-30",
@@ -36,7 +38,8 @@
       "kind": "기사·인터뷰",
       "detail": "강연 보도",
       "topic": "돌봄·지역사회",
-      "id": "media-72fce180"
+      "id": "media-72fce180",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/10/20261030095426_2409626_1200_767.jpg"
     },
     {
       "date": "2026-10-23",
@@ -47,7 +50,8 @@
       "kind": "기사·인터뷰",
       "detail": "행사 보도",
       "topic": "돌봄·기술",
-      "id": "media-d4acb327"
+      "id": "media-d4acb327",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/10/20261022230245_2405706_1200_900.jpg"
     },
     {
       "date": "2026-10-01",
@@ -58,7 +62,8 @@
       "kind": "기사·인터뷰",
       "detail": "인터뷰",
       "topic": "트렌드·사업",
-      "id": "media-ca34b8bd"
+      "id": "media-ca34b8bd",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/09/20260930221630_2395514_1200_798.jpg"
     },
     {
       "date": "2026-09-08",
@@ -69,7 +74,8 @@
       "kind": "기사·인터뷰",
       "detail": "행사 안내",
       "topic": "산업·기술",
-      "id": "media-04bf7475"
+      "id": "media-04bf7475",
+      "thumbnail": "https://img.etnews.com/news/article/2026/09/07/news-p.v1.20260907.92da9b7e0f874560b0db9b68cd47398a_P2.jpg"
     },
     {
       "date": "2026-07-14",
@@ -80,7 +86,8 @@
       "kind": "방송·영상",
       "detail": "방송·인터뷰",
       "topic": "금융·신탁",
-      "id": "media-f61ea2d6"
+      "id": "media-f61ea2d6",
+      "thumbnail": "https://i.ytimg.com/vi/-j579xQOX8I/hqdefault.jpg"
     },
     {
       "date": "2026-06-10",
@@ -91,7 +98,8 @@
       "kind": "기사·인터뷰",
       "detail": "행사 안내",
       "topic": "금융·신탁",
-      "id": "media-b03f5a87"
+      "id": "media-b03f5a87",
+      "thumbnail": "https://image.fnnews.com/resource/media/image/2026/02/09/202602091340124716_e.jpg"
     },
     {
       "date": "2026-05-14",
@@ -102,7 +110,8 @@
       "kind": "기사·인터뷰",
       "detail": "강연 보도",
       "topic": "산업·사업개발",
-      "id": "media-c02754ac"
+      "id": "media-c02754ac",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/05/20260514084251_2333288_1199_798.jpg"
     },
     {
       "date": "2026-03-09",
@@ -113,7 +122,8 @@
       "kind": "기고·칼럼",
       "detail": "기고·칼럼",
       "topic": "금융·신탁",
-      "id": "media-9c7ab716"
+      "id": "media-9c7ab716",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/03/20260309102632_2304710_1199_799.jpg"
     },
     {
       "date": "2026-02-06",
@@ -124,7 +134,8 @@
       "kind": "기사·인터뷰",
       "detail": "출간 보도",
       "topic": "금융·신탁",
-      "id": "media-20cd8563"
+      "id": "media-20cd8563",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/02/20260206082708_2292255_400_546.jpg"
     },
     {
       "date": "2026-01-29",
@@ -135,7 +146,8 @@
       "kind": "기고·칼럼",
       "detail": "기고 · 2026년 1월호",
       "topic": "주거·커뮤니티",
-      "id": "media-f57d3771"
+      "id": "media-f57d3771",
+      "thumbnail": "https://img1.daumcdn.net/thumb/S800x400/?fname=https://t1.daumcdn.net/news/202601/29/denmagazine/20260129180003078hbbi.png"
     },
     {
       "date": "2025-12-18",
@@ -157,7 +169,8 @@
       "kind": "기사·인터뷰",
       "detail": "해설 기사",
       "topic": "금융·생활설계",
-      "id": "media-b2604aed"
+      "id": "media-b2604aed",
+      "thumbnail": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2025/10/09/.cache/512/20251009500264.jpg?v=20261125232148"
     },
     {
       "date": "2025-09-30",
@@ -168,7 +181,8 @@
       "kind": "기사·인터뷰",
       "detail": "출간 보도",
       "topic": "트렌드·생활설계",
-      "id": "media-48781daa"
+      "id": "media-48781daa",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2025/09/20250930084514_2233646_259_364.jpg"
     },
     {
       "date": "2025-06-27",
@@ -179,7 +193,8 @@
       "kind": "기사·인터뷰",
       "detail": "전문가 인터뷰",
       "topic": "소비·콘텐츠",
-      "id": "media-6ad9ce0f"
+      "id": "media-6ad9ce0f",
+      "thumbnailNote": "원문 이미지 확인 필요"
     },
     {
       "date": "2025-06-02",
@@ -190,7 +205,8 @@
       "kind": "기사·인터뷰",
       "detail": "전문가 인터뷰",
       "topic": "문화·라이프스타일",
-      "id": "media-1d6110f3"
+      "id": "media-1d6110f3",
+      "thumbnailNote": "원문 이미지 확인 필요"
     },
     {
       "date": "2025-04-28",
@@ -201,7 +217,8 @@
       "kind": "기사·인터뷰",
       "detail": "인터뷰",
       "topic": "산업·AI",
-      "id": "media-71d889ce"
+      "id": "media-71d889ce",
+      "thumbnail": "https://img.etnews.com/news/article/2025/04/28/news-p.v1.20250428.9f9b5b01c4b74da5ac4d174cdee08cd5_P1.jpg"
     },
     {
       "date": "2025-02-25",
@@ -212,7 +229,8 @@
       "kind": "방송·영상",
       "detail": "방송·인터뷰",
       "topic": "산업·트렌드",
-      "id": "media-e4b9b7b5"
+      "id": "media-e4b9b7b5",
+      "thumbnail": "https://i.ytimg.com/vi/C5DSzMjd0e8/hqdefault.jpg"
     },
     {
       "date": "2024-09-22",
@@ -223,7 +241,8 @@
       "kind": "기사·인터뷰",
       "detail": "인터뷰",
       "topic": "시장·마케팅",
-      "id": "media-3911a602"
+      "id": "media-3911a602",
+      "thumbnail": "https://image.chosun.com/sitedata/image/202409/20/2024092002019_0.jpg"
     },
     {
       "date": "2024-09-19",
@@ -234,7 +253,8 @@
       "kind": "기사·인터뷰",
       "detail": "인터뷰",
       "topic": "고객·상품기획",
-      "id": "media-00aef61a"
+      "id": "media-00aef61a",
+      "thumbnail": "https://image.chosun.com/sitedata/image/202409/19/2024091901549_0.jpg"
     },
     {
       "date": "2024-08-05",
@@ -245,7 +265,8 @@
       "kind": "방송·영상",
       "detail": "방송·강연",
       "topic": "트렌드·라이프스타일",
-      "id": "media-d3cf9a41"
+      "id": "media-d3cf9a41",
+      "thumbnail": "https://i.ytimg.com/vi/ZuILfYYm-lo/hqdefault.jpg"
     },
     {
       "date": "2024-07-29",
@@ -256,7 +277,8 @@
       "kind": "방송·영상",
       "detail": "방송·강연",
       "topic": "시장·마케팅",
-      "id": "media-90888495"
+      "id": "media-90888495",
+      "thumbnail": "https://i.ytimg.com/vi/X3D-oVFzSBQ/hqdefault.jpg"
     },
     {
       "date": "2024-07-15",
@@ -267,7 +289,8 @@
       "kind": "방송·영상",
       "detail": "방송·강연",
       "topic": "트렌드·라이프스타일",
-      "id": "media-5b05814e"
+      "id": "media-5b05814e",
+      "thumbnail": "https://i.ytimg.com/vi/vUvKVJUSh3s/hqdefault.jpg"
     },
     {
       "date": "2024-06-20",
@@ -278,18 +301,8 @@
       "kind": "기사·인터뷰",
       "detail": "인터뷰",
       "topic": "시장·사업개발",
-      "id": "media-1d0a4179"
-    },
-    {
-      "date": "2023-12-22",
-      "dateType": "발행일",
-      "publisher": "브라보마이라이프",
-      "title": "은퇴 후 삶의 방향 제시하는 ‘시니어 트렌드 2024’",
-      "url": "https://bravo.etoday.co.kr/view/atc_view/15053",
-      "kind": "기사·인터뷰",
-      "detail": "출간 보도",
-      "topic": "트렌드·생활설계",
-      "id": "media-b80f0a9d"
+      "id": "media-1d0a4179",
+      "thumbnail": "https://img.etnews.com/news/article/2024/06/20/news-p.v1.20240620.dfe4a1440cce4b6599bc83cde6a9c9f8_P1.jpg"
     }
   ]
 }
