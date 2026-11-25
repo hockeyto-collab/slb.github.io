@@ -352,7 +352,10 @@
       "dateNote": "프로그램명에 포함된 연도를 개별 방송일로 사용하지 않음",
       "description": "시니어의 라이프스타일과 금융·건강·디지털 변화를 분야별 전문가와 함께 나누는 프로그램.",
       "roleSource": "사용자 본인 확인",
-      "verifiedAt": "2026-11-26"
+      "verifiedAt": "2026-11-26",
+      "archiveYear": 2025,
+      "yearBasis": "공식 프로그램명 기준",
+      "archivePlacement": "해당 연도의 날짜가 확인된 자료 뒤"
     }
   ]
 }
