@@ -1,0 +1,109 @@
+{
+  "verifiedAt": "2026-11-26",
+  "retailer": "교보문고",
+  "items": [
+    {
+      "id": "trend2027",
+      "title": "시니어 트렌드 2027 초고령사회 대전환 지도",
+      "links": [
+        {
+          "format": "paper",
+          "label": "종이책 구매하기",
+          "url": "https://product.kyobobook.co.kr/detail/S000221462190"
+        },
+        {
+          "format": "ebook",
+          "label": "e북 구매하기",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013659307"
+        }
+      ]
+    },
+    {
+      "id": "trend2026",
+      "title": "시니어 트렌드 2026",
+      "links": [],
+      "unlinked": {
+        "paper": "out_of_print",
+        "ebook": "sale_prohibited"
+      }
+    },
+    {
+      "id": "trend2025",
+      "title": "시니어 트렌드 2025",
+      "links": [
+        {
+          "format": "paper",
+          "label": "종이책 구매하기",
+          "url": "https://product.kyobobook.co.kr/detail/S000214426548"
+        }
+      ],
+      "unlinked": {
+        "ebook": "not_verified"
+      }
+    },
+    {
+      "id": "trend2024",
+      "title": "시니어 트렌드 2024",
+      "links": [],
+      "unlinked": {
+        "paper": "out_of_print",
+        "ebook": "sale_prohibited"
+      }
+    },
+    {
+      "id": "trust",
+      "title": "현명한 사람은 왜 신탁을 선택할까?",
+      "links": [
+        {
+          "format": "paper",
+          "label": "종이책 구매하기",
+          "url": "https://product.kyobobook.co.kr/detail/S000219144223"
+        },
+        {
+          "format": "ebook",
+          "label": "e북 구매하기",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012575329"
+        }
+      ]
+    },
+    {
+      "id": "magMarketing",
+      "title": "시니어 마케팅, 왜 계약 앞에서 멈출까?",
+      "links": [
+        {
+          "format": "ebook",
+          "label": "e북 구매하기",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013812468"
+        }
+      ]
+    },
+    {
+      "id": "magBusiness",
+      "title": "시니어 비즈니스, 왜 안 팔릴까?",
+      "links": [
+        {
+          "format": "ebook",
+          "label": "e북 구매하기",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013840191"
+        }
+      ]
+    },
+    {
+      "id": "magGap1",
+      "title": "시니어시장의 빈틈 고객이 멈춘 곳에서 찾은 12가지 사업기회",
+      "links": [
+        {
+          "format": "ebook",
+          "label": "e북 구매하기",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013840396"
+        }
+      ]
+    },
+    {
+      "id": "magGap2",
+      "title": "시니어 시장의 빈틈 2",
+      "links": [],
+      "status": "검증 필요"
+    }
+  ]
+}

@@ -137,3 +137,26 @@
 @media(max-width:760px){.press-home .press-latest{grid-template-columns:1fr;gap:6px}.press-home-bottom>span{max-width:45%;line-height:1.7}}
 
 .press-thumb-document img{object-fit:contain;background:#f5f3e9}.press-source-note{display:block;font-size:11px;color:var(--muted);margin-top:-6px}
+
+
+/* Quiet retailer links, distinct from primary lecture and consulting actions. */
+.purchase-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px;align-items:center}
+.purchase-link,.card-download{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:36px;padding:6px 11px;border:1px solid #bdcdd5;border-radius:4px;color:#245864;background:transparent;font-size:12px;font-weight:600;line-height:1.5;text-decoration:none;white-space:nowrap}
+.purchase-link:hover,.card-download:hover{background:#edf5f6;border-color:#478089}
+.purchase-retailer-note{font-size:12px;color:var(--muted);margin:28px 0 0}
+.series-card .purchase-actions{justify-content:center;margin-top:10px}
+.magazine-card>.purchase-actions{margin-top:auto;padding-top:14px}
+.resource-catalog .purchase-actions{justify-content:center;gap:5px;margin-top:8px}
+.resource-catalog .purchase-link{font-size:11px;padding:5px 8px;min-height:32px}
+.hero-primary>.purchase-actions{margin-bottom:5px}
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}
+.contact-layout .email-card{width:100%;max-width:none;padding:32px 30px}
+.contact-layout .email-card h2{font-size:27px}
+.contact-layout .email-address-row{flex-wrap:wrap;gap:12px}
+.contact-layout .email-address{min-width:0;flex:1;width:100%;font-size:22px}
+.contact-business-card{margin:0;min-width:0}
+.contact-business-card>.media-image{overflow:hidden;border-radius:5px;border:1px solid #cbd5df;box-shadow:0 12px 28px #0b294416}
+.contact-business-card img{display:block;width:100%;height:auto;object-fit:contain}
+.contact-business-card figcaption{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:18px;color:var(--muted);font-size:12px}
+@media(max-width:1000px){.contact-layout{grid-template-columns:1fr;max-width:860px;gap:35px}.contact-layout .email-card{padding:32px}.contact-business-card{max-width:720px;width:100%;margin:auto}}
+@media(max-width:760px){.purchase-link,.card-download{min-height:44px}.resource-catalog .purchase-link{min-height:40px;font-size:10px;padding:5px 6px}.resource-catalog .purchase-actions{gap:4px}.contact-layout{max-width:calc(100% - 36px)}.contact-layout .email-card{padding:27px 23px}.contact-layout .email-card h2{font-size:25px}.contact-business-card figcaption{flex-wrap:wrap;gap:12px}.contact-layout .email-address{font-size:20px}}
