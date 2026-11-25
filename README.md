@@ -1,22 +1,24 @@
-# Senior Life Business 프로필 사이트
+# 시니어라이프비즈니스 홈페이지
 
-이 프로젝트는 시니어 라이프 비즈니스 교육·강연 신청과 컨설팅 의뢰가 들어오도록 설계된 정적 웹사이트입니다.
+시니어트렌드 시리즈와 현장 리서치 매거진, 강의·교육·컨설팅을 소개하는 정적 홈페이지입니다.
 
-## 파일 구조
-- `index.html` – 홈(히어로 + 서비스 요약)
-- `about.html` – 소개/프로필/비전
-- `services.html` – 서비스 상세
-- `contact.html` – 문의(메일to: hockeyto@gmail.com)
-- `style.css` – 전역 스타일
-- `images/hero.png` – 히어로 배경 이미지
+GitHub Pages는 `main` 브랜치의 루트(`/`)를 게시 소스로 사용합니다.
 
-## 배포 (GitHub Pages 예시)
-1. 새 저장소 생성 후, 위 파일을 루트에 업로드
-2. Settings → Pages → `Deploy from a branch` → `main` / `/ (root)` 선택
-3. 배포 URL 접속 (CNAME으로 커스텀 도메인 연결 가능)
+## 파일 구성
 
-## 커스터마이징
-- 메타태그/OG 이미지 수정 → 각 HTML `<head>`
-- 폰트: Google Fonts 추가 가능
-- 분석: GA4 스니펫 삽입
-- 폼 백엔드: Formspree 등 서버리스 서비스로 교체 가능
+| 파일 | 내용 |
+| --- | --- |
+| `index.html` | 홈, 시니어트렌드 2027 및 도서·매거진 모음 |
+| `publication.html` | 출판, 2024–2027 시리즈와 관련 저서 |
+| `magazine.html` | 마케팅·비즈니스·빈틈 1·2 매거진 |
+| `education.html` | 교육 |
+| `lecture.html` | 강의 |
+| `consulting.html` | 컨설팅 |
+| `services.html` | 서비스 안내 |
+| `contact.html` | 이메일 연락처와 주소 복사 |
+| `about.html` | 기존 소개 링크를 홈으로 연결 |
+| `style.css` | PC·모바일 공통 스타일 |
+| `assets/` | 표지·인물·개념도 이미지 14종 |
+| `.nojekyll` | 빌드 없이 정적 파일 게시 |
+
+내용 수정 시 해당 HTML 파일을 편집합니다. 이미지 변경 시 `src`와 `data-lightbox-src`를 함께 확인합니다. 문의 이메일은 `hockeyto@gmail.com`입니다. 별도 유료 서버나 문의 접수 서버는 사용하지 않습니다.
