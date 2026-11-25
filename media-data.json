@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "period": {
     "from": "2024-01-01",
     "to": "2026-11-25"
@@ -339,5 +339,20 @@
     "media-f61ea2d6",
     "media-b03f5a87"
   ],
-  "homeSelectionNote": "주요 매체별 대표 자료를 한 건씩 골라 최신순으로 표시"
+  "homeSelectionNote": "주요 매체별 대표 자료를 한 건씩 골라 최신순으로 표시",
+  "programs": [
+    {
+      "id": "seniortv-trend2025-mc",
+      "publisher": "시니어TV",
+      "title": "시니어 트렌드 2025",
+      "role": "최학희 MC · 진행",
+      "url": "https://seniortv.co.kr/sub/detail.html?pid=P123&onair=Y",
+      "thumbnail": "https://seniortv.co.kr/upload/upload/images/seniortv/%EB%AA%A8%EB%B0%94%EC%9D%BC_%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%8D%B8%EB%84%A4%EC%9D%BC(720_1035)_%EC%8B%9C%EB%8B%88%EC%96%B4%ED%8A%B8%EB%9E%9C%EB%93%9C2025.jpg",
+      "broadcastDate": null,
+      "dateNote": "프로그램명에 포함된 연도를 개별 방송일로 사용하지 않음",
+      "description": "시니어의 라이프스타일과 금융·건강·디지털 변화를 분야별 전문가와 함께 나누는 프로그램.",
+      "roleSource": "사용자 본인 확인",
+      "verifiedAt": "2026-11-26"
+    }
+  ]
 }

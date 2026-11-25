@@ -166,3 +166,20 @@
 .resource-catalog .hero-companion-grid>figure>.media-image{height:126px;display:flex;align-items:flex-end;justify-content:center}
 .resource-catalog .hero-companion-grid>figure>.media-image img{max-height:126px;width:auto;max-width:100%;object-fit:contain}
 @media(max-width:760px){.resource-catalog .hero-companion-grid>figure>.media-image{height:110px}.resource-catalog .hero-companion-grid>figure>.media-image img{max-height:110px}}
+
+/* MC work is presented as a program introduction, separate from dated coverage. */
+.mc-program-section{background:#f4f8fc;border-bottom:1px solid var(--line);padding:44px 0}
+.mc-program-card{display:grid;grid-template-columns:170px minmax(0,1fr);align-items:center;gap:46px;max-width:900px;margin:0 auto}
+.mc-program-art{display:block;width:170px;text-decoration:none;background:#e4edf3;border-radius:5px;overflow:hidden;box-shadow:0 8px 22px #17364d16}
+.mc-program-art img{display:block;width:100%;height:auto;object-fit:contain}
+.mc-program-art [hidden]{display:none!important}
+.mc-program-art-fallback{min-height:230px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:20px;color:#245269;font-size:18px;font-weight:700}
+.mc-program-copy{min-width:0}
+.mc-program-copy .label{margin-bottom:10px;color:#13757b;letter-spacing:.06em}
+.mc-program-copy h2{font-size:32px;margin:0 0 10px}
+.mc-program-role{color:#1d5668;font-size:15px;font-weight:650;margin:0 0 15px}
+.mc-program-role span{padding:0 7px;color:#79929f}
+.mc-program-description{color:var(--muted);max-width:610px;font-size:16px;line-height:1.85;margin-bottom:17px}
+.mc-program-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:14px;color:#12687a;font-weight:650;text-underline-offset:5px}
+@media(max-width:760px){.mc-program-section{padding:34px 0}.mc-program-card{grid-template-columns:105px minmax(0,1fr);gap:21px;align-items:start}.mc-program-art{width:105px}.mc-program-copy h2{font-size:24px;line-height:1.4;letter-spacing:-.04em}.mc-program-copy .label{font-size:11px;margin-bottom:9px}.mc-program-role{font-size:12px;margin-bottom:11px}.mc-program-description{font-size:14px;line-height:1.8;margin-bottom:10px}.mc-program-link{font-size:12px;gap:4px}.mc-program-art-fallback{min-height:150px;font-size:13px;padding:12px}}
+@media(max-width:360px){.mc-program-card{grid-template-columns:85px minmax(0,1fr);gap:16px}.mc-program-art{width:85px}.mc-program-copy h2{font-size:21px}}
