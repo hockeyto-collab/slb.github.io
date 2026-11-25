@@ -1,0 +1,284 @@
+{
+  "updatedAt": "2026-11-25",
+  "period": {
+    "from": "2023-11-25",
+    "to": "2026-11-25"
+  },
+  "items": [
+    {
+      "date": "2026-11-23",
+      "dateType": "발행일",
+      "publisher": "한국보험신문",
+      "title": "[최학희의 금융경제 이야기] 부모 간병으로 퇴사 전, 내 소득과 노후도 계산하자",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93864",
+      "kind": "기고·칼럼",
+      "detail": "기고·칼럼",
+      "topic": "금융·생활설계",
+      "id": "media-492b3a7f"
+    },
+    {
+      "date": "2026-11-02",
+      "dateType": "발행일",
+      "publisher": "한국보험신문",
+      "title": "[최학희의 금융경제 이야기] 아프기 전, 내 돈 쓰는 법부터 정해두자",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93503",
+      "kind": "기고·칼럼",
+      "detail": "기고·칼럼",
+      "topic": "금융·생활설계",
+      "id": "media-60af4b49"
+    },
+    {
+      "date": "2026-10-30",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "“돌봄·웰다잉, 가족 넘어 지역사회가 함께 준비해야”",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20379",
+      "kind": "기사·인터뷰",
+      "detail": "강연 보도",
+      "topic": "돌봄·지역사회",
+      "id": "media-72fce180"
+    },
+    {
+      "date": "2026-10-23",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "“기술이 행정 덜어줄수록 돌봄 사람에게 머물어”",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20305",
+      "kind": "기사·인터뷰",
+      "detail": "행사 보도",
+      "topic": "돌봄·기술",
+      "id": "media-d4acb327"
+    },
+    {
+      "date": "2026-10-01",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "대규모 은퇴와 AI가 바꾸는 2027년 시니어의 변화",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20175",
+      "kind": "기사·인터뷰",
+      "detail": "인터뷰",
+      "topic": "트렌드·사업",
+      "id": "media-ca34b8bd"
+    },
+    {
+      "date": "2026-09-08",
+      "dateType": "발행일",
+      "publisher": "전자신문",
+      "title": "[K-ICT WEEK in BUSAN 2026] AI로 여는 100세 도시 '에이지테크 허브' 부산으로",
+      "url": "https://www.etnews.com/20260908000012",
+      "kind": "기사·인터뷰",
+      "detail": "행사 안내",
+      "topic": "산업·기술",
+      "id": "media-04bf7475"
+    },
+    {
+      "date": "2026-07-14",
+      "dateType": "방송일",
+      "publisher": "KBS 1라디오",
+      "title": "치매머니 170조 시대, 잠그지 않으면 뺏깁니다 - 최학희 대표 (시니어 라이프 비즈니스) [성공예감 이대호입니다]｜KBS 260714 방송",
+      "url": "https://www.youtube.com/watch?v=-j579xQOX8I",
+      "kind": "방송·영상",
+      "detail": "방송·인터뷰",
+      "topic": "금융·신탁",
+      "id": "media-f61ea2d6"
+    },
+    {
+      "date": "2026-05-14",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "“시니어 비즈니스, 노후의 불안을 신뢰로 바꾸는 산업”",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/19242",
+      "kind": "기사·인터뷰",
+      "detail": "강연 보도",
+      "topic": "산업·사업개발",
+      "id": "media-c02754ac"
+    },
+    {
+      "date": "2026-03-09",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "[칼럼] 신탁, 블루오션을 넘어 넥스트에이징 인프라로",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/18752",
+      "kind": "기고·칼럼",
+      "detail": "기고·칼럼",
+      "topic": "금융·신탁",
+      "id": "media-9c7ab716"
+    },
+    {
+      "date": "2026-02-06",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "1인가구·치매머니 시대 ‘재산 자기결정권’ 해법, 신탁",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/18542",
+      "kind": "기사·인터뷰",
+      "detail": "출간 보도",
+      "topic": "금융·신탁",
+      "id": "media-20cd8563"
+    },
+    {
+      "date": "2026-01-29",
+      "dateType": "온라인 공개일",
+      "publisher": "덴 매거진",
+      "title": "따로 또 같이, 시니어 코하우징",
+      "url": "https://v.daum.net/v/PHaHnkiPrY",
+      "kind": "기고·칼럼",
+      "detail": "기고 · 2026년 1월호",
+      "topic": "주거·커뮤니티",
+      "id": "media-f57d3771"
+    },
+    {
+      "date": "2025-12-18",
+      "dateType": "방송일",
+      "publisher": "KBS 열린토론",
+      "title": "12/18(목) - [열린토론] 172조 치매머니가 위험하다",
+      "url": "https://podcasts.apple.com/ru/podcast/12-18-%EB%AA%A9-%EC%97%B4%EB%A6%B0%ED%86%A0%EB%A1%A0-172%EC%A1%B0-%EC%B9%98%EB%A7%A4%EB%A8%B8%EB%8B%88%EA%B0%80-%EC%9C%84%ED%97%98%ED%95%98%EB%8B%A4/id1391004627?i=1000741917182&l=en-GB",
+      "kind": "방송·영상",
+      "detail": "방송·토론",
+      "topic": "금융·신탁",
+      "id": "media-a676974d"
+    },
+    {
+      "date": "2025-10-09",
+      "dateType": "발행일",
+      "publisher": "브릿지경제",
+      "title": "[비바 2080] 50대부터는 ‘파산 방어선’을 구축하라",
+      "url": "https://www.viva100.com/article/20251009500270",
+      "kind": "기사·인터뷰",
+      "detail": "해설 기사",
+      "topic": "금융·생활설계",
+      "id": "media-b2604aed"
+    },
+    {
+      "date": "2025-09-30",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "‘시니어 트렌드 2026’ 출간… ‘넥스트 에이징’ 로드맵 제시",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/17450",
+      "kind": "기사·인터뷰",
+      "detail": "출간 보도",
+      "topic": "트렌드·생활설계",
+      "id": "media-48781daa"
+    },
+    {
+      "date": "2025-06-27",
+      "dateType": "발행일",
+      "publisher": "매일경제",
+      "title": "시니어 유튜버의 유쾌한 삶에 열광하는 MZ",
+      "url": "https://www.mk.co.kr/news/culture/11354124",
+      "kind": "기사·인터뷰",
+      "detail": "전문가 인터뷰",
+      "topic": "소비·콘텐츠",
+      "id": "media-6ad9ce0f"
+    },
+    {
+      "date": "2025-06-02",
+      "dateType": "발행일",
+      "publisher": "오마이뉴스",
+      "title": "아직 청춘입니다, 발레로 증명합니다",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003135961",
+      "kind": "기사·인터뷰",
+      "detail": "전문가 인터뷰",
+      "topic": "문화·라이프스타일",
+      "id": "media-1d6110f3"
+    },
+    {
+      "date": "2025-04-28",
+      "dateType": "발행일",
+      "publisher": "전자신문",
+      "title": "초고령화, AI 시대의 시니어 비즈니스 트렌드 3선...최학희 대표 “듀얼 브레인 에이지테크, 실버자산 플랫폼화 등 주목”",
+      "url": "https://www.etnews.com/20250428000238",
+      "kind": "기사·인터뷰",
+      "detail": "인터뷰",
+      "topic": "산업·AI",
+      "id": "media-71d889ce"
+    },
+    {
+      "date": "2025-02-25",
+      "dateType": "방송일",
+      "publisher": "KBS 1라디오",
+      "title": "[성공예감 이대호입니다] 2부 풀영상 | 2025 시니어 트렌드 - 최학희 대표 (시니어 라이프 비즈니스) | KBS 250225 방송",
+      "url": "https://www.youtube.com/watch?v=C5DSzMjd0e8",
+      "kind": "방송·영상",
+      "detail": "방송·인터뷰",
+      "topic": "산업·트렌드",
+      "id": "media-e4b9b7b5"
+    },
+    {
+      "date": "2024-09-22",
+      "dateType": "발행일",
+      "publisher": "조선일보 땅집고",
+      "title": "\"시니어 산업, 세분화가 핵심…노인 아닌 '액티브 시니어'를 겨냥하라\"",
+      "url": "https://realty.chosun.com/site/data/html_dir/2024/09/20/2024092002030.html",
+      "kind": "기사·인터뷰",
+      "detail": "인터뷰",
+      "topic": "시장·마케팅",
+      "id": "media-3911a602"
+    },
+    {
+      "date": "2024-09-19",
+      "dateType": "발행일",
+      "publisher": "조선일보 땅집고",
+      "title": "\"치아 부러진 할머니 쓸 숟가락이 인기상품으로…시니어 맞춤형 제품이 핵심\"",
+      "url": "https://realty.chosun.com/site/data/html_dir/2024/09/19/2024091901555.html",
+      "kind": "기사·인터뷰",
+      "detail": "인터뷰",
+      "topic": "고객·상품기획",
+      "id": "media-00aef61a"
+    },
+    {
+      "date": "2024-08-05",
+      "dateType": "공식 채널 공개일",
+      "publisher": "한국시니어TV",
+      "title": "요즘 시니어 트렌드🌟 노후 주거환경, 건강 상태, 금융 사기? 노후 준비자들 필수 시청! [생각을 바꾸는 시간 S클래스 49회]",
+      "url": "https://www.youtube.com/watch?v=ZuILfYYm-lo",
+      "kind": "방송·영상",
+      "detail": "방송·강연",
+      "topic": "트렌드·라이프스타일",
+      "id": "media-d3cf9a41"
+    },
+    {
+      "date": "2024-07-29",
+      "dateType": "공식 채널 공개일",
+      "publisher": "한국시니어TV",
+      "title": "시니어 비즈니스 스타일, 10개의 고령친화산업! 많이 알수록 미래를 준비하기 좋습니다 [생각을 바꾸는 시간 S클래스 48회]",
+      "url": "https://www.youtube.com/watch?v=X3D-oVFzSBQ",
+      "kind": "방송·영상",
+      "detail": "방송·강연",
+      "topic": "시장·마케팅",
+      "id": "media-90888495"
+    },
+    {
+      "date": "2024-07-15",
+      "dateType": "공식 채널 공개일",
+      "publisher": "한국시니어TV",
+      "title": "퇴직 후 내 주변에 사람이 안 남는 이유? 퇴직 후 노후 준비는 이렇게 합시다! [생각을 바꾸는 시간 S클래스 46회]",
+      "url": "https://www.youtube.com/watch?v=vUvKVJUSh3s",
+      "kind": "방송·영상",
+      "detail": "방송·강연",
+      "topic": "트렌드·라이프스타일",
+      "id": "media-5b05814e"
+    },
+    {
+      "date": "2024-06-20",
+      "dateType": "발행일",
+      "publisher": "전자신문",
+      "title": "“변곡점 도달”, 시니어 비즈니스 기회와 도전...최학희 대표, 7월 10일 '시니어 비즈니스 트렌드 2025' 발표",
+      "url": "https://www.etnews.com/20240620000208",
+      "kind": "기사·인터뷰",
+      "detail": "인터뷰",
+      "topic": "시장·사업개발",
+      "id": "media-1d0a4179"
+    },
+    {
+      "date": "2023-12-22",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "은퇴 후 삶의 방향 제시하는 ‘시니어 트렌드 2024’",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/15053",
+      "kind": "기사·인터뷰",
+      "detail": "출간 보도",
+      "topic": "트렌드·생활설계",
+      "id": "media-b80f0a9d"
+    }
+  ]
+}
