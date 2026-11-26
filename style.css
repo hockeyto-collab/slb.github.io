@@ -172,26 +172,57 @@
 .press-program-description{font-size:14px;line-height:1.8;color:var(--muted);margin:0;max-width:600px}
 #broadcast-host{scroll-margin-top:105px}
 
-/* Workshop teaching experience and example curriculum. */
-.workshop-education{padding-bottom:64px}
-.workshop-education .section-head{align-items:start;margin-bottom:34px}
+/* Teaching method, curricula and proposed field pilot. */
+.workshop-education .section-head{align-items:start;margin-bottom:32px}
 .workshop-experience{max-width:650px}
 .workshop-experience p{font-size:16px;line-height:1.9;color:var(--muted);margin:0 0 12px}
 .workshop-experience p:last-child{margin-bottom:0}
-.workshop-example{background:var(--soft);border:1px solid var(--line);padding:32px}
-.workshop-example-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:26px}
-.workshop-example-heading .label{margin-bottom:6px}
-.workshop-example-heading h3{font-size:25px;line-height:1.5;margin:0}
-.workshop-example-heading>p{font-size:14px;color:var(--muted);max-width:290px;margin:0}
-.workshop-steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
-.workshop-steps li{min-width:0;border-top:2px solid #247d81;padding-top:17px}
-.workshop-step-number{display:block;font-size:13px;letter-spacing:.08em;color:#247d81;font-weight:700;margin-bottom:10px}
-.workshop-steps h4{font-size:18px;line-height:1.55;margin:0 0 10px}
-.workshop-steps p{font-size:14px;line-height:1.85;color:var(--muted);margin:0}
-.workshop-format-note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:17px;margin:25px 0 0}
-.workshop-trust{display:grid;grid-template-columns:240px minmax(0,1fr);align-items:center;gap:36px;border-left:3px solid #247d81;padding:22px 28px;margin-top:26px;background:#f8fafb}
-.workshop-trust .label{margin-bottom:5px}
-.workshop-trust h3{font-size:23px;line-height:1.5;margin:0}
-.workshop-trust>p{font-size:15px;line-height:1.9;color:var(--muted);margin:0;max-width:680px}
-@media(max-width:1000px){.workshop-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.workshop-trust{grid-template-columns:190px minmax(0,1fr);gap:24px}}
-@media(max-width:760px){.workshop-education{padding-bottom:42px}.workshop-education .section-head{display:block}.workshop-education .section-head h2{margin-bottom:20px}.workshop-experience p{font-size:14px}.workshop-example{padding:24px 20px}.workshop-example-heading{display:block;margin-bottom:24px}.workshop-example-heading h3{font-size:22px}.workshop-example-heading>p{font-size:13px;max-width:none;margin-top:10px}.workshop-steps{grid-template-columns:1fr;gap:24px}.workshop-steps li{padding-top:13px}.workshop-step-number{margin-bottom:5px}.workshop-steps h4{font-size:18px;margin-bottom:6px}.workshop-format-note{font-size:12px}.workshop-trust{grid-template-columns:1fr;gap:12px;padding:20px}.workshop-trust>p{font-size:14px}.workshop-trust h3{font-size:21px}}
+.teaching-method{background:var(--soft);border:1px solid var(--line);padding:30px}
+.teaching-method-head{display:flex;align-items:baseline;justify-content:space-between;gap:25px;margin-bottom:24px}
+.teaching-method-head h3{font-size:23px;line-height:1.5;margin:0}
+.teaching-method-head p{font-size:13px;color:var(--muted);margin:0}
+.teaching-method-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px}
+.teaching-method-steps li{min-width:0;border-top:2px solid #247d81;padding-top:14px}
+.teaching-method-steps li>span,.field-pilot-steps li>span{display:block;color:#247d81;font-size:12px;font-weight:700;letter-spacing:.08em;margin-bottom:9px}
+.teaching-method-steps h4{font-size:17px;line-height:1.5;margin:0 0 9px}
+.teaching-method-steps p{font-size:13px;line-height:1.85;color:var(--muted);margin:0}
+.teaching-ai-course{display:grid;grid-template-columns:1.1fr 1fr;gap:52px;margin:34px 0 48px;padding:34px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.teaching-ai-intro .label{margin-bottom:10px}
+.teaching-ai-intro h3{font-size:26px;line-height:1.55;margin:0 0 17px}
+.teaching-ai-intro>p:not(.label){font-size:15px;color:var(--muted);line-height:1.9;margin:0}
+.teaching-ai-intro>p.teaching-feedback-note{font-size:13px;margin-top:18px;padding-left:16px;border-left:2px solid #8dbbbf}
+.teaching-ai-format>ol{list-style:none;margin:12px 0 20px;padding:0}
+.teaching-ai-format>ol li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
+.teaching-ai-format>ol strong{font-size:14px;color:var(--ink)}
+.teaching-ai-format>ol span{font-size:13px;color:var(--muted)}
+.teaching-output{padding:18px 20px;background:#102b40;color:#fff}
+.teaching-output>span{display:block;font-size:12px;color:#bbd2df;margin-bottom:5px}
+.teaching-output strong{display:block;font-size:18px;line-height:1.6;font-weight:650}
+.teaching-courses-heading{margin-bottom:24px}
+.teaching-courses-heading .label{margin-bottom:6px}
+.teaching-courses-heading h3{font-size:25px;line-height:1.6;margin:0}
+.teaching-course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.teaching-course{min-width:0;padding:27px 29px;border:1px solid var(--line);border-top:3px solid #247d81}
+.teaching-course .label{margin-bottom:8px}
+.teaching-course h4{font-size:22px;line-height:1.5;margin:0 0 14px}
+.teaching-course>p:not(.label){font-size:15px;line-height:1.9;color:var(--muted);margin:0}
+.teaching-course>p.teaching-course-detail{font-size:13px;margin-top:14px}
+.teaching-course .textlink{display:inline-block;min-height:44px;padding-top:16px;font-size:13px}
+.teaching-course-prepared{border-top-color:#b49a6c;background:#fcfbf8}
+.teaching-course-prepared .label{color:#77633f}
+.field-pilot{background:#f5f8fb;border-bottom:1px solid var(--line)}
+.field-pilot .section-head{align-items:start}
+.field-pilot .section-head>p{font-size:15px;line-height:1.9}
+.field-pilot-steps{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:25px;padding:0;margin:32px 0}
+.field-pilot-steps li{min-width:0;border-top:2px solid #247d81;padding-top:17px}
+.field-pilot-steps h3{font-size:19px;line-height:1.6;margin:0 0 10px}
+.field-pilot-steps h3 small{font-size:12px;font-weight:500;color:var(--muted)}
+.field-pilot-steps p{font-size:14px;line-height:1.9;color:var(--muted);margin:0}
+.field-pilot-review{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;padding:25px 28px;background:#fff;border:1px solid var(--line)}
+.field-pilot-review h3{font-size:20px;line-height:1.6;margin:0 0 8px}
+.field-pilot-review p{font-size:14px;line-height:1.9;color:var(--muted);margin:0}
+.field-pilot-deliverables{border-left:1px solid var(--line);padding-left:28px}
+.field-pilot-deliverables>span{font-size:12px;color:#247d81;display:block;margin-bottom:7px}
+#field-pilot,#workshop-education{scroll-margin-top:24px}
+@media(max-width:1000px){.teaching-method-steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.teaching-ai-course{gap:28px}.teaching-ai-format>ol li{grid-template-columns:1fr;gap:2px}.field-pilot-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.workshop-education .section-head{display:block}.workshop-education .section-head h2{margin-bottom:20px}.workshop-experience p{font-size:14px}.teaching-method{padding:24px 20px}.teaching-method-head{display:block}.teaching-method-head h3{font-size:21px}.teaching-method-head p{font-size:12px;margin-top:10px}.teaching-method-steps{grid-template-columns:1fr;gap:22px}.teaching-method-steps li{padding-top:12px}.teaching-method-steps li>span{margin-bottom:5px}.teaching-method-steps h4{font-size:18px;margin-bottom:6px}.teaching-method-steps p{font-size:14px}.teaching-ai-course{grid-template-columns:1fr;gap:24px;padding:26px 0;margin:28px 0 34px}.teaching-ai-intro h3{font-size:23px}.teaching-ai-intro>p:not(.label){font-size:14px}.teaching-ai-intro>p.teaching-feedback-note{font-size:13px}.teaching-ai-format>ol li{grid-template-columns:125px minmax(0,1fr);gap:10px}.teaching-output{padding:17px}.teaching-output strong{font-size:17px}.teaching-courses-heading h3{font-size:22px}.teaching-course-grid{grid-template-columns:1fr;gap:20px}.teaching-course{padding:23px 21px}.teaching-course h4{font-size:21px}.teaching-course>p:not(.label){font-size:14px}.teaching-course>p.teaching-course-detail{font-size:13px}.field-pilot .section-head>p{font-size:14px}.field-pilot-steps{grid-template-columns:1fr;gap:23px;margin:26px 0}.field-pilot-steps h3{font-size:18px}.field-pilot-review{grid-template-columns:1fr;gap:20px;padding:22px 20px}.field-pilot-review h3{font-size:19px}.field-pilot-review p{font-size:14px}.field-pilot-deliverables{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:17px}}
