@@ -1,0 +1,65 @@
+/* Compact cover navigation, scoped to research and magazine pages. */
+.institutional.page-research .book-overview-section,.institutional.page-magazine .book-overview-section{padding:28px 0 33px;border-bottom:1px solid var(--line);background:#fff}
+.institutional .book-overview-heading{margin:0 0 23px}
+.institutional .book-overview-heading h2{font-size:21px;line-height:1.5;margin:0;color:var(--ink)}
+.institutional .book-overview-grid{display:grid;gap:22px;align-items:start}
+.institutional .magazine-overview-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.institutional .research-overview-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.institutional .book-overview-link{display:flex;flex-direction:column;min-width:0;text-decoration:none;color:var(--ink);padding:0 6px 8px}
+.institutional .book-overview-cover{height:180px;display:flex;align-items:flex-end;justify-content:center;margin-bottom:15px}
+.institutional .book-overview-cover img{display:block;max-width:100%;width:auto;height:auto;max-height:166px;object-fit:contain;box-shadow:5px 7px 15px #1234431c;transition:transform .18s ease}
+.institutional .book-overview-featured .book-overview-cover img{max-height:180px}
+.institutional .book-overview-link:hover .book-overview-cover img{transform:translateY(-3px)}
+.institutional .book-overview-link:focus-visible{outline:3px solid #168884;outline-offset:5px}
+.institutional .book-overview-caption{display:flex;flex-direction:column;gap:3px;text-align:center;word-break:keep-all;overflow-wrap:anywhere;line-height:1.6}
+.institutional .book-overview-caption strong{font-size:15px;font-weight:650}
+.institutional .book-overview-caption>span{font-size:13px;color:var(--muted)}
+.institutional .book-overview-featured .book-overview-caption strong{color:var(--blue)}
+.institutional .magazine-card[id],.institutional .book-feature[id],.institutional .series-card[id],.institutional .related-book[id]{scroll-margin-top:112px}
+/* A mixed collection: authored work, teaching materials and research references. */
+.institutional.page-research .research-writing-record{border-top:1px solid var(--line);background:#f2f6f6}
+.institutional.page-research .writing-record-layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:44px;align-items:start}
+.institutional.page-research .writing-record-photo{margin:0;min-width:0}
+.institutional.page-research .writing-record-photo>.media-image{background:#e3e9e8;border:1px solid #d5dfdf}
+.institutional.page-research .writing-record-photo img{width:100%;height:auto;display:block}
+.institutional.page-research .writing-record-photo figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:12px}
+.institutional.page-research .writing-record-copy>p{font-size:16px;line-height:1.9;margin:0 0 21px;color:var(--muted)}
+.institutional.page-research .writing-record-list{list-style:none;margin:0;padding:0}
+.institutional.page-research .writing-record-list li{display:flex;gap:14px;align-items:baseline;justify-content:space-between;padding:12px 0;border-top:1px solid #d6e0e0;line-height:1.8}
+.institutional.page-research .writing-record-list strong{font-size:15px;font-weight:600;min-width:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-research .writing-record-list span{font-size:13px;color:var(--muted);flex-shrink:0}
+@media(max-width:1000px){
+ .institutional .book-overview-grid{gap:16px}
+ .institutional .book-overview-cover{height:157px}
+ .institutional .book-overview-cover img{max-height:145px}
+ .institutional .book-overview-featured .book-overview-cover img{max-height:157px}
+ .institutional .book-overview-caption strong{font-size:14px}
+ .institutional.page-research .writing-record-layout{gap:28px}
+ .institutional.page-research .writing-record-list li{flex-wrap:wrap;gap:2px 14px}
+}
+@media(max-width:760px){
+ .institutional.page-research .book-overview-section,.institutional.page-magazine .book-overview-section{padding:25px 0 28px}
+ .institutional .book-overview-heading{margin-bottom:19px}
+ .institutional .book-overview-heading h2{font-size:20px}
+ .institutional .magazine-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}
+ .institutional .research-overview-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 13px}
+ .institutional .book-overview-cover{height:149px;margin-bottom:12px}
+ .institutional .book-overview-cover img{max-height:139px}
+ .institutional .book-overview-featured .book-overview-cover img{max-height:149px}
+ .institutional .book-overview-link{padding-left:2px;padding-right:2px}
+ .institutional .book-overview-caption strong{font-size:14px}
+ .institutional .book-overview-caption>span{font-size:13px}
+ .institutional .magazine-card[id],.institutional .book-feature[id],.institutional .series-card[id],.institutional .related-book[id]{scroll-margin-top:90px}
+ .institutional.page-research .writing-record-layout{grid-template-columns:minmax(0,1fr);gap:25px}
+ .institutional.page-research .writing-record-copy>p{font-size:16px}
+ .institutional.page-research .writing-record-list li{justify-content:flex-start}
+}
+@media(max-width:380px){
+ .institutional .research-overview-grid{gap:20px 10px}
+ .institutional .research-overview-grid .book-overview-cover{height:125px}
+ .institutional .research-overview-grid .book-overview-cover img{max-height:115px}
+ .institutional .research-overview-grid .book-overview-featured .book-overview-cover img{max-height:125px}
+ .institutional .book-overview-caption strong{font-size:13px}
+ .institutional .book-overview-caption>span{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.institutional .book-overview-cover img{transition:none}.institutional .book-overview-link:hover .book-overview-cover img{transform:none}}
