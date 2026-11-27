@@ -16,12 +16,12 @@
 .institutional .book-overview-caption>span{font-size:13px;color:var(--muted)}
 .institutional .book-overview-featured .book-overview-caption strong{color:var(--blue)}
 .institutional .magazine-card[id],.institutional .book-feature[id],.institutional .series-card[id],.institutional .related-book[id]{scroll-margin-top:112px}
-/* A mixed collection: authored work, teaching materials and research references. */
+/* Research and writing record, with participation roles shown separately. */
 .institutional.page-research .research-writing-record{border-top:1px solid var(--line);background:#f2f6f6}
 .institutional.page-research .writing-record-layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:44px;align-items:start}
 .institutional.page-research .writing-record-photo{margin:0;min-width:0}
-.institutional.page-research .writing-record-photo>.media-image{background:#e3e9e8;border:1px solid #d5dfdf}
-.institutional.page-research .writing-record-photo img{width:100%;height:auto;display:block}
+.institutional.page-research .writing-record-photo>.media-image{background:transparent;border:0}
+.institutional.page-research .writing-record-photo img{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 16px #12344318)}
 .institutional.page-research .writing-record-photo figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:12px}
 .institutional.page-research .writing-record-copy>p{font-size:16px;line-height:1.9;margin:0 0 21px;color:var(--muted)}
 .institutional.page-research .writing-record-list{list-style:none;margin:0;padding:0}

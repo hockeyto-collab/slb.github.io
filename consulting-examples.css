@@ -2,6 +2,10 @@
 .institutional .consulting-examples{scroll-margin-top:100px}
 .institutional .consulting-examples .section-head{margin-bottom:20px}
 .institutional .consulting-examples .section-head h2{max-width:680px}
+.institutional .consulting-scope-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:28px 0 18px}
+.institutional .consulting-scope-flow li{position:relative;min-width:0;border-top:2px solid #a8c0c1;background:#fff;padding:15px 18px 15px 12px;font-size:15px;font-weight:650;line-height:1.7;color:var(--blue);word-break:keep-all;overflow-wrap:anywhere}
+.institutional .consulting-scope-flow li:not(:last-child)::after{content:"→";position:absolute;right:-10px;top:14px;color:#78999d;z-index:1;font-weight:400}
+.institutional .consulting-examples .consulting-scope-note{font-size:15px;line-height:1.9;color:var(--ink);margin:0 0 8px}
 .institutional .consulting-examples .examples-disclosure{max-width:820px;font-size:14px;line-height:1.9;color:var(--muted);margin:0 0 34px}
 .institutional .consulting-example-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 30px}
 .institutional .consulting-example-card{min-width:0;margin:0;background:#fff;border:1px solid var(--line)}
@@ -11,6 +15,9 @@
 .institutional .consulting-example-card h3{font-size:21px;line-height:1.5;margin:0 0 7px}
 .institutional .consulting-example-card figcaption p{font-size:15px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
 @media(max-width:760px){
+ .institutional .consulting-scope-flow{grid-template-columns:minmax(0,1fr);gap:10px;margin:24px 0 19px}
+ .institutional .consulting-scope-flow li{border-top:0;border-left:2px solid #a8c0c1;padding:11px 15px}
+ .institutional .consulting-scope-flow li:not(:last-child)::after{content:"↓";right:17px;top:auto;bottom:-11px}
  .institutional .consulting-example-grid{grid-template-columns:minmax(0,1fr);gap:26px}
  .institutional .consulting-examples .examples-disclosure{font-size:14px;margin-bottom:27px}
  .institutional .consulting-example-card figcaption{padding:19px 20px 21px}
