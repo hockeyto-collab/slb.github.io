@@ -1,25 +1,109 @@
-/* Program designs: delivered experience and a proposed academy remain distinct. */
-.institutional.page-education .course-models{background:#f2f6f6;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.institutional.page-education .course-model-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;align-items:start}
-.institutional.page-education .course-model-card{min-width:0;background:#fff;border:1px solid var(--line);border-top:3px solid #327d82;padding:31px 32px;scroll-margin-top:112px}
-.institutional.page-education .course-model-planned{border-top-color:#b48d50}
-.institutional.page-education .course-model-status{display:inline-block;font-size:12px;font-weight:650;line-height:1.75;letter-spacing:.02em;padding:4px 9px;background:#edf4f4;color:#17686d;margin:0 0 17px;word-break:keep-all;overflow-wrap:anywhere}
+/* One course catalogue: equal presentation, compact overview and native disclosures. */
+.institutional.page-education .course-models{background:#f2f6f6;border-bottom:1px solid var(--line)}
+.institutional.page-education .course-models .section-head{margin-bottom:30px}
+.institutional.page-education .course-overview{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin:0 0 36px;scroll-margin-top:112px}
+.institutional.page-education .course-overview-link{display:flex;flex-direction:column;min-width:0;padding:19px 18px 17px;background:#fff;border:1px solid #cbdcdd;border-top:3px solid #327d82;color:var(--ink);text-decoration:none;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.institutional.page-education .course-overview-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.institutional.page-education .course-overview-number{font-size:12px;line-height:1.5;font-weight:650;letter-spacing:.08em;color:#59858a}
+.institutional.page-education .course-overview-icon{display:flex;width:34px;height:34px;align-items:center;justify-content:center;color:#17686d}
+.institutional.page-education .course-overview-icon svg,.institutional.page-education .course-model-symbol svg{display:block;width:100%;height:100%;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.institutional.page-education .course-overview-link strong{font-size:16px;font-weight:650;line-height:1.55;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-overview-domain{display:block;margin-top:8px;font-size:12px;line-height:1.8;color:var(--muted);word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-overview-action{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:15px;margin-top:auto;font-size:12px;font-weight:650;line-height:1.6;color:#17686d}
+.institutional.page-education .course-overview-link:hover,.institutional.page-education .course-overview-link.is-current{border-color:#327d82;box-shadow:0 6px 18px #173e4910;transform:translateY(-2px)}
+.institutional.page-education .course-overview-link:focus-visible,.institutional.page-education .course-model-disclosure>summary:focus-visible,.institutional.page-education .course-back-link:focus-visible{outline:3px solid #168884;outline-offset:4px}
+.institutional.page-education .course-overview-planned{border-top-color:#b48d50}
+.institutional.page-education .course-overview-planned .course-overview-icon,.institutional.page-education .course-overview-planned .course-overview-action{color:#795d31}
+.institutional.page-education .course-model-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+.institutional.page-education .course-model-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);column-gap:38px;min-width:0;background:#fff;border:1px solid var(--line);border-left:3px solid #327d82;padding:28px 31px 0;scroll-margin-top:112px}
+.institutional.page-education .course-model-card:target{border-color:#7da6a8;box-shadow:0 0 0 1px #7da6a84d}
+.institutional.page-education .course-model-planned{border-left-color:#b48d50}
+.institutional.page-education .course-model-meta{display:flex;align-items:center;gap:10px;min-width:0;margin-bottom:17px}
+.institutional.page-education .course-model-symbol{display:flex;flex:0 0 30px;width:30px;height:30px;align-items:center;justify-content:center;color:#17686d}
+.institutional.page-education .course-model-number{font-size:12px;line-height:1.5;color:#59858a;letter-spacing:.05em;font-weight:650}
+.institutional.page-education .course-model-status{font-size:12px;font-weight:650;line-height:1.7;letter-spacing:.01em;padding:4px 8px;background:#edf4f4;color:#17686d;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-planned .course-model-symbol{color:#795d31}
 .institutional.page-education .course-model-planned .course-model-status{background:#f5f0e7;color:#795d31}
-.institutional.page-education .course-model-header h3{font-size:27px;line-height:1.55;margin:0 0 14px;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-header>p:last-child{font-size:16px;line-height:1.9;color:var(--muted);margin:0}
-.institutional.page-education .course-model-flow{list-style:none;margin:28px 0 0;padding:0}
-.institutional.page-education .course-model-flow li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:13px;padding:17px 0;border-top:1px solid var(--line)}
-.institutional.page-education .course-model-flow li>span{font-size:13px;line-height:1.8;font-weight:650;color:#327d82}
-.institutional.page-education .course-model-flow h4{font-size:17px;line-height:1.7;margin:0 0 4px;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-flow p{font-size:14px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-deliverables{padding:17px 19px;margin-top:20px;background:#edf4f4;border-left:2px solid #8eb0b1}
-.institutional.page-education .course-model-deliverables h4,.institutional.page-education .course-model-expertise h4{font-size:13px;font-weight:650;line-height:1.7;color:#17686d;margin:0 0 8px}
-.institutional.page-education .course-model-deliverables p{font-size:14px;line-height:1.95;color:var(--ink);margin:0;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-expertise{margin-top:20px;border-top:1px solid var(--line);padding-top:18px}
+.institutional.page-education .course-model-header h3{font-size:24px;line-height:1.55;margin:0 0 13px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-header>p{font-size:15px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px;margin:0;align-self:start}
+.institutional.page-education .course-model-facts>div{min-width:0;padding:16px 0 0;border-top:1px solid #cfdddd}
+.institutional.page-education .course-model-facts dt{font-size:12px;font-weight:650;line-height:1.7;color:#17686d;margin:0 0 10px}
+.institutional.page-education .course-model-facts dd{font-size:14px;line-height:1.95;color:var(--ink);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-facts .course-model-deliverables{padding:15px 17px;background:#edf4f4;border-top:1px solid #cfdddd}
+.institutional.page-education .course-model-disclosure{grid-column:1/-1;min-width:0;margin-top:24px;border-top:1px solid var(--line)}
+.institutional.page-education .course-model-disclosure>summary{display:flex;align-items:center;gap:14px;min-height:57px;box-sizing:border-box;padding:16px 0;color:#17686d;font-size:14px;font-weight:650;line-height:1.7;cursor:pointer;list-style:none;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-disclosure>summary::-webkit-details-marker{display:none}
+.institutional.page-education .course-model-disclosure>summary::after{content:'＋';flex:0 0 auto;font-size:21px;font-weight:400;line-height:1}
+.institutional.page-education .course-model-disclosure[open]>summary::after{content:'−'}
+.institutional.page-education .course-summary-kind{font-size:11px;font-weight:500;color:var(--muted);margin-left:auto}
+.institutional.page-education .course-toggle-open{display:none}
+.institutional.page-education .course-model-disclosure[open] .course-toggle-open{display:inline}
+.institutional.page-education .course-model-disclosure[open] .course-toggle-closed{display:none}
+.institutional.page-education .course-model-details-content{padding:6px 0 25px}
+.institutional.page-education .course-model-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;list-style:none;margin:0;padding:0}
+.institutional.page-education .course-model-flow-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.institutional.page-education .course-model-flow li{position:relative;min-width:0;border-top:2px solid #8eb0b1;padding:17px 4px 0 0}
+.institutional.page-education .course-model-flow li:not(:last-child)::after{content:'→';position:absolute;right:-13px;top:17px;font-size:14px;color:#93b0b1}
+.institutional.page-education .course-step-number{display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;border-radius:50%;font-size:11px;font-weight:650;line-height:1;color:#17686d;background:#edf4f4;margin-bottom:12px}
+.institutional.page-education .course-model-flow h4{font-size:16px;line-height:1.6;margin:0 0 8px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-flow p{font-size:13px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-time-example{margin-top:26px;border:1px solid #d7e1e1;background:#f7fafa;padding:19px 21px}
+.institutional.page-education .course-time-example h4,.institutional.page-education .course-model-expertise h4{font-size:13px;font-weight:650;line-height:1.7;color:#17686d;margin:0 0 13px}
+.institutional.page-education .course-time-example ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;list-style:none;margin:0;padding:0}
+.institutional.page-education .course-time-example li{min-width:0}
+.institutional.page-education .course-time-example strong{display:block;font-size:14px;font-weight:650;line-height:1.7;margin-bottom:5px}
+.institutional.page-education .course-time-example li>span{font-size:13px;line-height:1.85;color:var(--muted);word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-expertise{margin-top:25px;border-top:1px solid var(--line);padding-top:20px}
 .institutional.page-education .course-model-expertise ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0}
-.institutional.page-education .course-model-expertise li{font-size:12px;line-height:1.8;padding:3px 8px;border:1px solid #d7e1e1;color:var(--ink);max-width:100%;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-expertise>p{font-size:14px;line-height:1.9;color:var(--muted);margin:13px 0 0}
-.institutional.page-education .course-model-note{font-size:13px;line-height:1.95;color:var(--muted);margin:18px 0 0;word-break:keep-all;overflow-wrap:anywhere}
-.institutional.page-education .course-model-research-link{font-size:13px;line-height:1.9;margin-top:18px;word-break:keep-all;overflow-wrap:anywhere}
-@media(max-width:900px){.institutional.page-education .course-model-grid{grid-template-columns:minmax(0,1fr);gap:25px}.institutional.page-education .course-model-card{padding:27px 28px}}
-@media(max-width:480px){.institutional.page-education .course-model-card{padding:23px 20px;scroll-margin-top:90px}.institutional.page-education .course-model-header h3{font-size:24px}.institutional.page-education .course-model-flow li{grid-template-columns:25px minmax(0,1fr);gap:10px}.institutional.page-education .course-model-deliverables{padding:15px}.institutional.page-education .course-model-header>p:last-child{font-size:15px}}
+.institutional.page-education .course-model-expertise li{font-size:12px;line-height:1.8;padding:4px 9px;border:1px solid #d7e1e1;color:var(--ink);max-width:100%;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-expertise>p,.institutional.page-education .course-model-note{font-size:13px;line-height:1.95;color:var(--muted);margin:17px 0 0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-research-link{display:inline-block;font-size:13px;line-height:1.9;margin-top:16px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-back-link{display:flex;align-items:center;justify-content:flex-end;gap:8px;width:max-content;max-width:100%;font-size:12px;font-weight:600;line-height:1.8;color:#17686d;margin:21px 0 0 auto;padding:5px 0;text-decoration:none;text-underline-offset:4px}
+.institutional.page-education .course-back-link:hover{text-decoration:underline}
+@media(max-width:1100px){
+ .institutional.page-education .course-overview{gap:11px}
+ .institutional.page-education .course-overview-link{padding:17px 14px 15px}
+ .institutional.page-education .course-overview-link strong{font-size:15px}
+ .institutional.page-education .course-model-card{column-gap:25px;padding:25px 26px 0}
+ .institutional.page-education .course-model-facts{gap:15px}
+}
+@media(max-width:900px){
+ .institutional.page-education .course-overview{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+ .institutional.page-education .course-model-card{grid-template-columns:minmax(0,1fr);gap:21px}
+ .institutional.page-education .course-model-facts{gap:20px}
+ .institutional.page-education .course-model-disclosure{margin-top:0}
+ .institutional.page-education .course-model-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px}
+ .institutional.page-education .course-model-flow li::after{display:none}
+ .institutional.page-education .course-time-example ol{grid-template-columns:minmax(0,1fr);gap:15px}
+ .institutional.page-education .course-time-example li+li{padding-top:14px;border-top:1px solid var(--line)}
+}
+@media(max-width:600px){
+ .institutional.page-education .course-overview{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:27px;scroll-margin-top:90px}
+ .institutional.page-education .course-overview-link{padding:15px 13px 14px}
+ .institutional.page-education .course-overview-top{margin-bottom:13px}
+ .institutional.page-education .course-overview-icon{width:29px;height:29px}
+ .institutional.page-education .course-overview-link strong{font-size:14px;line-height:1.6}
+ .institutional.page-education .course-overview-domain{font-size:11px;margin-top:6px}
+ .institutional.page-education .course-overview-action{font-size:11px;padding-top:12px}
+ .institutional.page-education .course-model-grid{gap:21px}
+ .institutional.page-education .course-model-card{padding:22px 19px 0;gap:19px;scroll-margin-top:90px}
+ .institutional.page-education .course-model-header h3{font-size:22px;line-height:1.55;margin-bottom:11px}
+ .institutional.page-education .course-model-header>p{font-size:14px}
+ .institutional.page-education .course-model-meta{flex-wrap:wrap;gap:8px;margin-bottom:14px}
+ .institutional.page-education .course-model-status{font-size:12px;max-width:100%}
+ .institutional.page-education .course-model-facts{grid-template-columns:minmax(0,1fr);gap:15px}
+ .institutional.page-education .course-model-facts>div{padding-top:13px}
+ .institutional.page-education .course-model-facts dt{font-size:12px;margin-bottom:6px}
+ .institutional.page-education .course-model-facts dd{font-size:13px;line-height:1.9}
+ .institutional.page-education .course-model-facts .course-model-deliverables{padding:13px 15px}
+ .institutional.page-education .course-summary-kind{font-size:10px}
+ .institutional.page-education .course-model-disclosure>summary{font-size:13px;gap:9px;min-height:55px}
+ .institutional.page-education .course-model-flow,.institutional.page-education .course-model-flow-three{grid-template-columns:minmax(0,1fr);gap:18px}
+ .institutional.page-education .course-model-flow li{padding-top:14px}
+ .institutional.page-education .course-step-number{margin-bottom:9px}
+ .institutional.page-education .course-model-flow h4{font-size:15px}
+ .institutional.page-education .course-time-example{padding:17px;margin-top:22px}
+ .institutional.page-education .course-model-details-content{padding-bottom:22px}
+}
+@media(prefers-reduced-motion:reduce){.institutional.page-education .course-overview-link{transition:none}.institutional.page-education .course-overview-link:hover,.institutional.page-education .course-overview-link.is-current{transform:none}}
