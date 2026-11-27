@@ -1,4 +1,4 @@
-/* Public illustrative work samples; scoped to the consulting gallery. */
+/* Public work samples; edited source excerpt is labelled separately. */
 .institutional .consulting-examples{scroll-margin-top:100px}
 .institutional .consulting-examples .section-head{margin-bottom:20px}
 .institutional .consulting-examples .section-head h2{max-width:680px}
@@ -11,6 +11,14 @@
 .institutional .consulting-example-card{min-width:0;margin:0;background:#fff;border:1px solid var(--line)}
 .institutional .consulting-example-card>.media-image{aspect-ratio:16/10;overflow:hidden;background:#eaf0f1}
 .institutional .consulting-example-card>.media-image img{width:100%;height:100%;object-fit:contain;display:block}
+.institutional .consulting-proof-visual{position:relative;aspect-ratio:16/10;overflow:hidden;background:#eaf0f1}
+.institutional .consulting-proof-visual>.media-image{width:100%;height:100%;display:block}
+.institutional .consulting-proof-visual>.media-image img{width:100%;height:100%;object-fit:contain;display:block}
+.institutional .consulting-proof-visual>.consulting-proof-preview{position:absolute;left:3.5%;top:34%;width:30%;height:auto;padding:5px;background:#fff;border:1px solid #c6b48a;box-shadow:0 7px 18px #102a3a26;z-index:1}
+.institutional .consulting-proof-visual>.consulting-proof-preview img{width:100%;height:auto;display:block}
+.institutional .consulting-proof-preview span{display:block;font-size:11px;font-weight:650;line-height:1.7;letter-spacing:0;color:#6f5726;text-align:center;padding:5px 0 1px}
+.institutional .consulting-example-card figcaption .consulting-proof-note{font-size:12px;color:#7c6334;margin:0 0 10px;line-height:1.8}
+.institutional .consulting-proof-preview:focus-visible{outline:3px solid #17686d;outline-offset:4px}
 .institutional .consulting-example-card figcaption{border-top:1px solid var(--line);padding:22px 24px 24px}
 .institutional .consulting-example-card h3{font-size:21px;line-height:1.5;margin:0 0 7px}
 .institutional .consulting-example-card figcaption p{font-size:15px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
