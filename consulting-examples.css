@@ -23,3 +23,10 @@
  .institutional .consulting-example-card figcaption{padding:19px 20px 21px}
  .institutional .consulting-example-card h3{font-size:20px}
 }
+
+/* Selected project fields, tasks and deliverables. */
+.institutional .consulting-example-card figcaption .consulting-example-sector{display:inline-block;font-size:12px;font-weight:650;line-height:1.7;letter-spacing:.02em;color:#17686d;background:#edf4f4;padding:4px 9px;margin:0 0 12px}
+.institutional .consulting-example-card figcaption .consulting-example-task{font-size:15px;line-height:1.9;margin:0;color:var(--muted)}
+.institutional .consulting-example-output{border-top:1px solid var(--line);padding-top:15px;margin:17px 0 0}
+.institutional .consulting-example-output dt{font-size:12px;font-weight:650;line-height:1.7;color:#17686d;margin:0 0 5px}
+.institutional .consulting-example-output dd{font-size:14px;line-height:1.85;color:var(--ink);margin:0;word-break:keep-all;overflow-wrap:anywhere}
