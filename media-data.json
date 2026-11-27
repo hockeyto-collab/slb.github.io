@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "period": {
-    "from": "2024-01-01",
-    "to": "2026-11-25"
+    "from": "2023-12-27",
+    "to": "2026-11-27"
   },
   "items": [
     {
@@ -54,6 +54,19 @@
       "thumbnail": "https://img.etoday.co.kr/pto_db/2026/10/20261022230245_2405706_1200_900.jpg"
     },
     {
+      "date": "2026-10-08",
+      "dateType": "발행일",
+      "publisher": "브라보마이라이프",
+      "title": "“100세 시대, 부모 돌봄 어떻게” AI에서 답 찾는다",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20217",
+      "kind": "기사·인터뷰",
+      "detail": "행사 안내",
+      "topic": "돌봄·AI",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/10/20261008142255_2398965_1005_1565.png",
+      "id": "media-119873f4",
+      "verifiedAt": "2026-11-27"
+    },
+    {
       "date": "2026-10-01",
       "dateType": "발행일",
       "publisher": "브라보마이라이프",
@@ -76,6 +89,19 @@
       "topic": "산업·기술",
       "id": "media-04bf7475",
       "thumbnail": "https://img.etnews.com/news/article/2026/09/07/news-p.v1.20260907.92da9b7e0f874560b0db9b68cd47398a_P2.jpg"
+    },
+    {
+      "date": "2026-08-27",
+      "dateType": "발행일",
+      "publisher": "브릿지경제",
+      "title": "소비 절반이 50대 이상인데⋯ 유통가 ‘시니어 마케팅’ 주저하는 까닭은?",
+      "url": "https://www.viva100.com/article/20260826500846",
+      "kind": "기사·인터뷰",
+      "detail": "전문가 코멘트",
+      "topic": "소비·시니어 마케팅",
+      "thumbnail": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/08/26/.cache/512/20260826500833.png?v=20261127102359",
+      "id": "media-93d68e3c",
+      "verifiedAt": "2026-11-27"
     },
     {
       "date": "2026-07-14",
@@ -185,6 +211,19 @@
       "thumbnail": "https://img.etoday.co.kr/pto_db/2025/09/20250930084514_2233646_259_364.jpg"
     },
     {
+      "date": "2025-09-16",
+      "dateType": "발행일",
+      "publisher": "이지경제",
+      "title": "한국사회투자, 임팩트살롱 3회차 개최…“고령화 시대 새로운 사회공헌 패러다임 실현”",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=221629",
+      "kind": "기사·인터뷰",
+      "detail": "행사 안내",
+      "topic": "사회공헌·시니어",
+      "id": "media-432e07ad",
+      "thumbnail": "https://cdn.ezyeconomy.com/news/photo/202509/221629_122496_745.png",
+      "verifiedAt": "2026-11-27"
+    },
+    {
       "date": "2025-06-27",
       "dateType": "발행일",
       "publisher": "매일경제",
@@ -221,6 +260,19 @@
       "thumbnail": "https://img.etnews.com/news/article/2025/04/28/news-p.v1.20250428.9f9b5b01c4b74da5ac4d174cdee08cd5_P1.jpg"
     },
     {
+      "date": "2025-04-23",
+      "dateType": "발행일",
+      "publisher": "전자신문",
+      "title": "초고령화 사회, AI 시대 비즈니스 판도가 바뀐다! '시니어 이코노미 인사이트 포럼 2025' 5월 15일 개최",
+      "url": "https://www.etnews.com/20250423000169",
+      "kind": "기사·인터뷰",
+      "detail": "행사 안내",
+      "topic": "산업·AI",
+      "thumbnail": "https://img.etnews.com/news/article/2025/04/23/news-p.v1.20250423.004a31178b5a4ed6ae562c314027255f_P1.jpg",
+      "id": "media-cb434662",
+      "verifiedAt": "2026-11-27"
+    },
+    {
       "date": "2025-02-25",
       "dateType": "방송일",
       "publisher": "KBS 1라디오",
@@ -246,6 +298,32 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEblMCxLfdY/hqdefault.jpg"
     },
     {
+      "date": "2024-10-22",
+      "dateType": "발행일",
+      "publisher": "라이프인",
+      "title": "한국지역재단협의회, '제6기 지역재단학교' 개강",
+      "url": "https://www.lifein.news/news/articleView.html?idxno=18018",
+      "kind": "기사·인터뷰",
+      "detail": "교육 안내",
+      "topic": "지역사회·공익",
+      "id": "media-cc97ccf4",
+      "thumbnail": "https://cdn.lifein.news/news/photo/202410/18018_26882_5641.jpg",
+      "verifiedAt": "2026-11-27"
+    },
+    {
+      "date": "2024-10-07",
+      "dateType": "발행일",
+      "publisher": "대구신문",
+      "title": "용학도서관, '신노인(新老人)포럼' 운영",
+      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=477184",
+      "kind": "기사·인터뷰",
+      "detail": "강연 안내",
+      "topic": "AI·시니어교육",
+      "id": "media-bc19577b",
+      "thumbnailNote": "원문 본문에 기사 이미지 없음; 매체명 텍스트 표지 권장",
+      "verifiedAt": "2026-11-27"
+    },
+    {
       "date": "2024-09-22",
       "dateType": "발행일",
       "publisher": "조선일보 땅집고",
@@ -268,6 +346,19 @@
       "topic": "고객·상품기획",
       "id": "media-00aef61a",
       "thumbnail": "https://image.chosun.com/sitedata/image/202409/19/2024091901549_0.jpg"
+    },
+    {
+      "date": "2024-08-30",
+      "dateType": "발행일",
+      "publisher": "조선일보 땅집고",
+      "title": "시니어 시장 진출 고민한다면…시니어 산업 개발 및 운영전략 알려드려요",
+      "url": "https://realty.chosun.com/site/data/html_dir/2024/08/30/2024083001392.html",
+      "kind": "기사·인터뷰",
+      "detail": "교육과정 안내",
+      "topic": "시장·사업개발",
+      "thumbnail": "https://image.chosun.com/sitedata/image/202408/30/2024083001383_0.jpg",
+      "id": "media-9411785c",
+      "verifiedAt": "2026-11-27"
     },
     {
       "date": "2024-08-05",
@@ -331,6 +422,45 @@
       "sourceLabel": "기고 지면 · 저자 블로그",
       "issue": "Volume 268 | 2024 Spring·Summer",
       "publicationBrandNote": "당시 DGB금융그룹 비즈니스리뷰"
+    },
+    {
+      "date": "2024-04-04",
+      "dateType": "발행일",
+      "publisher": "스트레이트뉴스",
+      "title": "'2024 ST안티에이징포럼' 개최…저출생·고령화 극복방안 모색",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=247070",
+      "kind": "기사·인터뷰",
+      "detail": "포럼 보도",
+      "topic": "산업·금융",
+      "id": "media-14222f43",
+      "thumbnail": "https://cdn.straightnews.co.kr/news/photo/202404/247070_150701_4416.jpg",
+      "verifiedAt": "2026-11-27"
+    },
+    {
+      "date": "2024-01-11",
+      "dateType": "발행일",
+      "publisher": "한국강사신문",
+      "title": "동작도서관, 우희경·김재필·정석환·최학희 작가 초청 ‘2024 값진 트렌드 꾸러미’ 특별 강연 운영",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=144346",
+      "kind": "기사·인터뷰",
+      "detail": "강연 안내",
+      "topic": "교육·트렌드",
+      "id": "media-13f1f758",
+      "thumbnail": "https://cdn.lecturernews.com/news/photo/202401/144346_392543_3535.jpg",
+      "verifiedAt": "2026-11-27"
+    },
+    {
+      "date": "2023-12-27",
+      "dateType": "발행일",
+      "publisher": "경남CBS·노컷뉴스",
+      "title": "최학희 작가 \"시니어들, 호기심을 가지고 어울려라\"",
+      "url": "https://www.nocutnews.co.kr/news/6069719",
+      "kind": "기사·인터뷰",
+      "detail": "라디오 인터뷰",
+      "topic": "트렌드·라이프스타일",
+      "thumbnail": "https://file2.nocutnews.co.kr/newsroom/image/2023/12/27/202312271335408990_0.jpg",
+      "id": "media-8a30c83b",
+      "verifiedAt": "2026-11-27"
     }
   ],
   "homeFeatured": [
