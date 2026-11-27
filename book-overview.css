@@ -63,3 +63,18 @@
  .institutional .book-overview-caption>span{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){.institutional .book-overview-cover img{transition:none}.institutional .book-overview-link:hover .book-overview-cover img{transform:none}}
+
+/* Public channel home views as continuing research repositories. */
+.institutional.page-research .research-channels{background:#f2f6f6;border-bottom:1px solid var(--line)}
+.institutional.page-research .research-channel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.institutional.page-research .research-channel-card{display:flex;flex-direction:column;min-width:0;color:var(--ink);text-decoration:none;background:#fff;border:1px solid var(--line)}
+.institutional.page-research .research-channel-card:focus-visible{outline:3px solid #168884;outline-offset:5px}
+.institutional.page-research .research-channel-preview{aspect-ratio:16/7;overflow:hidden;background:#edf2f3;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line)}
+.institutional.page-research .research-channel-preview img{display:block;width:100%;height:100%;object-fit:contain}
+.institutional.page-research .research-channel-copy{padding:24px 26px 27px}
+.institutional.page-research .research-channel-label{font-size:13px;font-weight:650;line-height:1.7;color:var(--blue);margin:0 0 8px}
+.institutional.page-research .research-channel-copy h3{font-size:23px;line-height:1.6;margin:0 0 8px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-research .research-channel-copy>p:not(.research-channel-label){font-size:15px;line-height:1.9;margin:0;color:var(--muted)}
+.institutional.page-research .research-channel-link{display:inline-flex;align-items:center;gap:10px;margin-top:22px;min-height:32px;color:var(--blue);font-size:14px;font-weight:650;text-decoration:underline;text-underline-offset:5px}
+.institutional.page-research .research-channel-card:hover .research-channel-link{color:#06464a}
+@media(max-width:760px){.institutional.page-research .research-channel-grid{grid-template-columns:minmax(0,1fr);gap:25px}.institutional.page-research .research-channel-copy{padding:21px 22px 24px}.institutional.page-research .research-channel-copy h3{font-size:21px}}
