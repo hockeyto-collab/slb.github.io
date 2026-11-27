@@ -107,3 +107,17 @@
  .institutional.page-education .course-model-details-content{padding-bottom:22px}
 }
 @media(prefers-reduced-motion:reduce){.institutional.page-education .course-overview-link{transition:none}.institutional.page-education .course-overview-link:hover,.institutional.page-education .course-overview-link.is-current{transform:none}}
+/* Always-visible foundation, before the life-question and market diagrams. */
+.institutional .education-materials .education-foundation{margin:0 0 42px;padding:0 0 38px;border-top:0;border-bottom:1px solid var(--line);scroll-margin-top:110px}
+.institutional .education-foundation>.label{margin:0;color:var(--blue);font-size:13px;line-height:1.8;font-weight:650}
+.institutional .education-foundation .education-foundation-inner{margin-top:20px}
+.institutional .education-foundation-inner>div{min-width:0}
+.institutional .education-foundation-inner h3{font-size:clamp(26px,2.7vw,36px);line-height:1.55;margin:0 0 18px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional .education-foundation-inner p{line-height:1.95;margin:0}
+.institutional .education-foundation-inner .wide-visual{padding:16px}
+.institutional .education-foundation-inner .wide-visual figcaption{font-size:13px;line-height:1.85}
+@media(max-width:760px){
+ .institutional .education-materials .education-foundation{padding-bottom:30px;margin-bottom:32px;scroll-margin-top:90px}
+ .institutional .education-foundation .education-foundation-inner{grid-template-columns:minmax(0,1fr);gap:25px}
+ .institutional .education-foundation-inner .wide-visual{padding:13px}
+}

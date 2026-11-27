@@ -24,6 +24,12 @@
 .institutional .lecture-record-year{font-size:14px;color:var(--blue);font-weight:650;font-variant-numeric:tabular-nums}
 .institutional .lecture-scope-note{font-size:15px;line-height:1.95;color:var(--muted);margin:21px 0 0;word-break:keep-all;overflow-wrap:anywhere}
 .institutional .lecture-privacy-note{font-size:12px;line-height:1.8;color:var(--muted);margin:28px 0 0}
+.institutional .lecture-media-note{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-top:32px;padding:25px 28px;border-left:3px solid #af915a;background:#fff}
+.institutional .lecture-media-note>div{min-width:0;max-width:650px}
+.institutional .lecture-media-note .label{font-size:12px;font-weight:650;line-height:1.8;letter-spacing:.04em;color:var(--blue);margin:0 0 7px}
+.institutional .lecture-media-note p:not(.label){font-size:15px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional .lecture-media-note>a{flex-shrink:0;display:inline-flex;align-items:center;gap:15px;min-height:44px;padding:8px 0;font-size:14px;font-weight:650;color:var(--blue);text-decoration:none;border-bottom:1px solid #af915a;line-height:1.8;word-break:keep-all}
+.institutional .lecture-media-note>a:focus-visible{outline:2px solid var(--blue);outline-offset:5px}
 @media(max-width:1000px){
  .institutional .lecture-record-top{gap:24px}
  .institutional .lecture-record-card figcaption{padding:20px}
@@ -44,4 +50,6 @@
  .institutional .lecture-record-list li{padding:16px 0;gap:12px;grid-template-columns:46px minmax(0,1fr)}
  .institutional .lecture-record-source a{margin-left:0;margin-right:12px}
  .institutional .lecture-privacy-note{margin-top:23px}
+ .institutional .lecture-media-note{align-items:flex-start;flex-direction:column;gap:16px;padding:22px 21px;margin-top:27px}
+ .institutional .lecture-media-note>a{max-width:100%;font-size:13px;gap:10px}
 }
