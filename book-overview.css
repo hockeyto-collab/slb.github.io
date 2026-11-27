@@ -4,7 +4,7 @@
 .institutional .book-overview-heading h2{font-size:21px;line-height:1.5;margin:0;color:var(--ink)}
 .institutional .book-overview-grid{display:grid;gap:22px;align-items:start}
 .institutional .magazine-overview-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
-.institutional .research-overview-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.institutional .research-overview-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
 .institutional .book-overview-link{display:flex;flex-direction:column;min-width:0;text-decoration:none;color:var(--ink);padding:0 6px 8px}
 .institutional .book-overview-cover{height:180px;display:flex;align-items:flex-end;justify-content:center;margin-bottom:15px}
 .institutional .book-overview-cover img{display:block;max-width:100%;width:auto;height:auto;max-height:166px;object-fit:contain;box-shadow:5px 7px 15px #1234431c;transition:transform .18s ease}

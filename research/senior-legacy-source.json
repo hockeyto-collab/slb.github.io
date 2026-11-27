@@ -1,0 +1,126 @@
+{
+  "title": "시니어 레거시",
+  "subtitle": "품격 있는 노년기를 위한 24가지 체크리스트",
+  "authors": [
+    "조한종",
+    "김신혜",
+    "최학희"
+  ],
+  "role": "공저",
+  "publisher": "시대인",
+  "publication_date": "2023-07-10",
+  "isbn": "9791138353656",
+  "pages": 144,
+  "purchase_url": "https://product.kyobobook.co.kr/detail/S000202631130",
+  "publisher_status": "판매중",
+  "cover_url": "https://static-sdedu.akamaized.net/img1/data/cm_shop/book/1684306771/1684306771_o.png",
+  "toc": [
+    "1부 비재무적 측면의 품격, 어울림, 건강과 영성 모델",
+    "1. 사회적인 나이 듦(Social Aging)",
+    "2. 소명적인 나이 듦(Vocational Aging)",
+    "3. 영성적인 나이 듦(Spiritual Aging)",
+    "4. 지성적인 나이 듦(Intellectual Aging)",
+    "5. 감정적인 나이 듦(Emotional Aging)",
+    "6. 육체적인 나이 듦(Physical Aging)",
+    "2부 재무적 측면의 삶의 질, 자기결정권, 지속가능성 모델",
+    "1. 부의 목적성과 의미",
+    "2. 안정적인 현금흐름",
+    "3. 4060 플랜",
+    "4. 신탁(Trust) 활용",
+    "5. 보험(Insurance) 활용",
+    "6. 자산리모델링",
+    "3부 비즈니스 모델 측면의 더 나은 삶 지원 플랫폼 모델",
+    "1. 자가진단",
+    "2. 고객경험관리",
+    "3. 니드 모델링",
+    "4. 제휴 표준화",
+    "5. 검증",
+    "6. 팀 서포트(Team Support)",
+    "4부 시에나파트너스 플랫폼이 그리는 미래(실용노년학과 노년기 일상)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sidaegosi.com/book/item.php?cat_id=006002&it_id=1684306771",
+      "type": "publisher",
+      "verified_fields": [
+        "title",
+        "subtitle",
+        "authors",
+        "publisher",
+        "publication_date",
+        "isbn",
+        "pages",
+        "sale_status",
+        "table_of_contents",
+        "cover"
+      ]
+    },
+    {
+      "url": "https://search.kyobobook.co.kr/search?chrcCode=1117609001&keyword=%EC%B5%9C%ED%95%99%ED%9D%AC",
+      "type": "retailer",
+      "verified_fields": [
+        "title",
+        "authors",
+        "publication_date",
+        "sale_listing"
+      ]
+    },
+    {
+      "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005265034",
+      "type": "retailer_ebook",
+      "verified_fields": [
+        "title",
+        "subtitle",
+        "authors",
+        "publication_date",
+        "table_of_contents",
+        "buy_button"
+      ]
+    }
+  ],
+  "checked_date": "2026-11-27",
+  "context_provided_by_author": "신탁 저서의 전편 작업. 신탁을 시니어비즈니스의 기회로 보고 꾸준히 연구하는 과제.",
+  "ebook_purchase_url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005265034",
+  "ebook_isbn": "9791138353700",
+  "kyobo_paperback_link_verified_via_official_search": true,
+  "ebook_status": "eBook 구매하기 표시 확인",
+  "toc_parts": [
+    {
+      "heading": "1부 비재무적 측면의 품격, 어울림, 건강과 영성 모델",
+      "entries": [
+        "1. 사회적인 나이 듦(Social Aging)",
+        "2. 소명적인 나이 듦(Vocational Aging)",
+        "3. 영성적인 나이 듦(Spiritual Aging)",
+        "4. 지성적인 나이 듦(Intellectual Aging)",
+        "5. 감정적인 나이 듦(Emotional Aging)",
+        "6. 육체적인 나이 듦(Physical Aging)"
+      ]
+    },
+    {
+      "heading": "2부 재무적 측면의 삶의 질, 자기결정권, 지속가능성 모델",
+      "entries": [
+        "1. 부의 목적성과 의미",
+        "2. 안정적인 현금흐름",
+        "3. 4060 플랜",
+        "4. 신탁(Trust) 활용",
+        "5. 보험(Insurance) 활용",
+        "6. 자산리모델링"
+      ]
+    },
+    {
+      "heading": "3부 비즈니스 모델 측면의 더 나은 삶 지원 플랫폼 모델",
+      "entries": [
+        "1. 자가진단",
+        "2. 고객경험관리",
+        "3. 니드 모델링",
+        "4. 제휴 표준화",
+        "5. 검증",
+        "6. 팀 서포트(Team Support)"
+      ]
+    },
+    {
+      "heading": "4부 시에나파트너스 플랫폼이 그리는 미래(실용노년학과 노년기 일상)",
+      "entries": []
+    }
+  ]
+}

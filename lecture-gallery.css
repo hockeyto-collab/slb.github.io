@@ -1,0 +1,47 @@
+/* Selected lecture field records; private details are removed in image assets. */
+.institutional .lecture-gallery{background:#f2f6f6;border-bottom:1px solid var(--line);scroll-margin-top:100px}
+.institutional .lecture-gallery .section-head{margin-bottom:34px}
+.institutional .lecture-gallery .section-head h2{max-width:620px}
+.institutional .lecture-record-top{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:30px;align-items:start}
+.institutional .lecture-record-card,.institutional .lecture-record-event{min-width:0;margin:0;background:#fff;border:1px solid var(--line)}
+.institutional .lecture-record-card>.media-image,.institutional .lecture-overseas-pair>.media-image{display:flex;width:100%;aspect-ratio:4/3;align-items:center;justify-content:center;overflow:hidden;background:#e8eeee}
+.institutional .lecture-record-card>.media-image img,.institutional .lecture-overseas-pair>.media-image img{display:block;width:100%;height:100%;object-fit:contain}
+.institutional .lecture-record-card figcaption{padding:23px 25px 25px;border-top:1px solid var(--line)}
+.institutional .lecture-gallery figcaption h3{font-size:21px;line-height:1.55;margin:0 0 9px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional .lecture-gallery figcaption h3>span{font-size:15px;font-weight:500;color:var(--muted);white-space:nowrap}
+.institutional .lecture-gallery figcaption p{font-size:15px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional .lecture-gallery figcaption .lecture-record-source{font-size:12px;line-height:1.8;margin-top:16px}
+.institutional .lecture-record-source a{display:inline-block;color:var(--blue);margin-left:10px;text-underline-offset:4px;padding:3px 0}
+.institutional .lecture-record-event{margin-top:30px;padding:25px}
+.institutional .lecture-overseas-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.institutional .lecture-record-event figcaption{margin-top:21px}
+.institutional .lecture-selected-records{margin-top:45px;padding-top:30px;border-top:1px solid #cbdada}
+.institutional .lecture-selected-heading .label{font-size:13px;color:var(--blue);margin:0 0 10px}
+.institutional .lecture-selected-heading h3{font-size:25px;line-height:1.55;margin:0 0 12px}
+.institutional .lecture-selected-heading>p:not(.label){font-size:15px;line-height:1.9;color:var(--muted);margin:0}
+.institutional .lecture-record-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 38px;list-style:none;margin:24px 0 0;padding:0}
+.institutional .lecture-record-list li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:15px;align-items:baseline;border-top:1px solid #cfdddd;padding:18px 0;font-size:15px;line-height:1.85;color:var(--ink);word-break:keep-all;overflow-wrap:anywhere}
+.institutional .lecture-record-year{font-size:14px;color:var(--blue);font-weight:650;font-variant-numeric:tabular-nums}
+.institutional .lecture-scope-note{font-size:15px;line-height:1.95;color:var(--muted);margin:21px 0 0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional .lecture-privacy-note{font-size:12px;line-height:1.8;color:var(--muted);margin:28px 0 0}
+@media(max-width:1000px){
+ .institutional .lecture-record-top{gap:24px}
+ .institutional .lecture-record-card figcaption{padding:20px}
+ .institutional .lecture-record-event{padding:20px}
+ .institutional .lecture-overseas-pair{gap:20px}
+}
+@media(max-width:760px){
+ .institutional .lecture-gallery{scroll-margin-top:85px}
+ .institutional .lecture-gallery .section-head{margin-bottom:28px}
+ .institutional .lecture-record-top,.institutional .lecture-overseas-pair{grid-template-columns:minmax(0,1fr);gap:25px}
+ .institutional .lecture-record-event{margin-top:25px;padding:16px}
+ .institutional .lecture-record-card figcaption{padding:20px 21px 22px}
+ .institutional .lecture-gallery figcaption h3{font-size:20px}
+ .institutional .lecture-record-event figcaption{margin-top:20px}
+ .institutional .lecture-selected-records{margin-top:32px;padding-top:25px}
+ .institutional .lecture-selected-heading h3{font-size:23px}
+ .institutional .lecture-record-list{grid-template-columns:minmax(0,1fr);gap:0;margin-top:21px}
+ .institutional .lecture-record-list li{padding:16px 0;gap:12px;grid-template-columns:46px minmax(0,1fr)}
+ .institutional .lecture-record-source a{margin-left:0;margin-right:12px}
+ .institutional .lecture-privacy-note{margin-top:23px}
+}

@@ -1,0 +1,25 @@
+/* Program designs: delivered experience and a proposed academy remain distinct. */
+.institutional.page-education .course-models{background:#f2f6f6;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.institutional.page-education .course-model-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;align-items:start}
+.institutional.page-education .course-model-card{min-width:0;background:#fff;border:1px solid var(--line);border-top:3px solid #327d82;padding:31px 32px;scroll-margin-top:112px}
+.institutional.page-education .course-model-planned{border-top-color:#b48d50}
+.institutional.page-education .course-model-status{display:inline-block;font-size:12px;font-weight:650;line-height:1.75;letter-spacing:.02em;padding:4px 9px;background:#edf4f4;color:#17686d;margin:0 0 17px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-planned .course-model-status{background:#f5f0e7;color:#795d31}
+.institutional.page-education .course-model-header h3{font-size:27px;line-height:1.55;margin:0 0 14px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-header>p:last-child{font-size:16px;line-height:1.9;color:var(--muted);margin:0}
+.institutional.page-education .course-model-flow{list-style:none;margin:28px 0 0;padding:0}
+.institutional.page-education .course-model-flow li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:13px;padding:17px 0;border-top:1px solid var(--line)}
+.institutional.page-education .course-model-flow li>span{font-size:13px;line-height:1.8;font-weight:650;color:#327d82}
+.institutional.page-education .course-model-flow h4{font-size:17px;line-height:1.7;margin:0 0 4px;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-flow p{font-size:14px;line-height:1.9;color:var(--muted);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-deliverables{padding:17px 19px;margin-top:20px;background:#edf4f4;border-left:2px solid #8eb0b1}
+.institutional.page-education .course-model-deliverables h4,.institutional.page-education .course-model-expertise h4{font-size:13px;font-weight:650;line-height:1.7;color:#17686d;margin:0 0 8px}
+.institutional.page-education .course-model-deliverables p{font-size:14px;line-height:1.95;color:var(--ink);margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-expertise{margin-top:20px;border-top:1px solid var(--line);padding-top:18px}
+.institutional.page-education .course-model-expertise ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0}
+.institutional.page-education .course-model-expertise li{font-size:12px;line-height:1.8;padding:3px 8px;border:1px solid #d7e1e1;color:var(--ink);max-width:100%;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-expertise>p{font-size:14px;line-height:1.9;color:var(--muted);margin:13px 0 0}
+.institutional.page-education .course-model-note{font-size:13px;line-height:1.95;color:var(--muted);margin:18px 0 0;word-break:keep-all;overflow-wrap:anywhere}
+.institutional.page-education .course-model-research-link{font-size:13px;line-height:1.9;margin-top:18px;word-break:keep-all;overflow-wrap:anywhere}
+@media(max-width:900px){.institutional.page-education .course-model-grid{grid-template-columns:minmax(0,1fr);gap:25px}.institutional.page-education .course-model-card{padding:27px 28px}}
+@media(max-width:480px){.institutional.page-education .course-model-card{padding:23px 20px;scroll-margin-top:90px}.institutional.page-education .course-model-header h3{font-size:24px}.institutional.page-education .course-model-flow li{grid-template-columns:25px minmax(0,1fr);gap:10px}.institutional.page-education .course-model-deliverables{padding:15px}.institutional.page-education .course-model-header>p:last-child{font-size:15px}}

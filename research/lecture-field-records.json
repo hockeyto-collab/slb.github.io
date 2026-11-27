@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-11-27",
+  "privacy": "Only de-identified edited images are published; source originals are not included.",
+  "records": [
+    {
+      "asset": "assets/lecture-classroom.webp",
+      "source": "author-provided photograph",
+      "caption": "기업·기관 교육 현장",
+      "year": null
+    },
+    {
+      "assets": [
+        "assets/lecture-overseas-stage.webp",
+        "assets/lecture-overseas-audience.webp"
+      ],
+      "source": "author-provided photographs",
+      "caption": "해외 실버산업 전략 강연",
+      "year": null,
+      "same_event": true
+    },
+    {
+      "asset": "assets/lecture-public-forum.webp",
+      "source": "https://m.bravo.etoday.co.kr/view/atc_view.php?varAtcId=20305",
+      "image_source": "https://img.etoday.co.kr/pto_db/2026/10/600/20261022230245_2405706_1200_900.jpg",
+      "event_date": "2026-10-22",
+      "role": "북토크 저자 참여",
+      "credit": "브라보 마이 라이프 · 이준호 기자",
+      "preserved_speaker_basis": "Article caption explicitly lists the far-left stage participant as Choi Hockey."
+    }
+  ],
+  "selected_experience": [
+    {
+      "year": 2015,
+      "topic": "은퇴설계 전문가 과정 설계",
+      "source": "author-provided career information"
+    },
+    {
+      "year": 2024,
+      "topic": "비즈니스 진출·성공 전략 특강",
+      "source": "https://realty.chosun.com/site/data/html_dir/2024/09/19/2024091901555.html"
+    },
+    {
+      "year": 2024,
+      "topic": "경영진 포럼 · 비즈니스 트렌드 특강",
+      "source": "author-provided career information"
+    }
+  ]
+}
